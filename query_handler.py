@@ -9,21 +9,14 @@ class QueryHandler():
         self.url = url
         self.sparql_wrapper = SPARQLWrapper(url)
         self.limit = 30
-        self.query = """
-        SELECT DISTINCT ?country ?countryLabel ?capital ?capitalLabel
-        WHERE
-        {
-        ?country wdt:P31 wd:Q3624078 .
-        #not a former country
-        FILTER NOT EXISTS {?country wdt:P31 wd:Q3024240}
-        #and no an ancient civilisation (needed to exclude ancient Egypt)
-        FILTER NOT EXISTS {?country wdt:P31 wd:Q28171280}
-        OPTIONAL { ?country wdt:P36 ?capital } .
+        self.query = """SELECT DISTINCT ?departement ?code_INSEE ?departementLabel WHERE 
+                        {
+                        ?departement wdt:P31 wd:Q6465;
+                        wdt:P2586 ?code_INSEE.
+                        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                        }
+                        ORDER BY ?code_INSEE"""
 
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
-        }
-        ORDER BY ?countryLabel
-        """
 
     def execute_query(self,query):
         self.sparql_wrapper.setQuery(query)
