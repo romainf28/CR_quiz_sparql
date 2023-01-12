@@ -1,4 +1,4 @@
-,departement.type,departement.value,code_INSEE.type,code_INSEE.value,departementLabel.xml:lang,departementLabel.type,departementLabel.value
+,item.type,item.value,code_insee.type,code_insee.value,itemLabel.xml:lang,itemLabel.type,itemLabel.value
 0,uri,http://www.wikidata.org/entity/Q3083,literal,01,fr,literal,Ain
 1,uri,http://www.wikidata.org/entity/Q3093,literal,02,fr,literal,Aisne
 2,uri,http://www.wikidata.org/entity/Q3113,literal,03,fr,literal,Allier
