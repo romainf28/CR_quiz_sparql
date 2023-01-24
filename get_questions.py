@@ -73,24 +73,83 @@ AVAILABLE_QUESTION_TYPES = {
     }
 }
 
+query_gen = """SELECT DISTINCT ?code_insee ?departementLabel ?drapeau ?Area ?capitaleLabel ?departementPopulation ?regionLabel
 
-query_dpt = """
+                WHERE {
+                    VALUES ?type {  wd:Q6465 wd:Q202216  }
 
-"""
+                    ?departement wdt:P31 ?type;
+                    wdt:P36 ?capitale;
+                    wdt:P1082 ?departementPopulation;
+                    wdt:P2586 ?code_insee;
+                    wdt:P2046 ?Area.
+                    
+                    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                    }
+                        
+                    ORDER BY ?code_insee"""
 
 query_cmn = """
+                SELECT DISTINCT ?departementLabel ?communeLabel ?regionLabel ?code_insee
+                WHERE {
+                    VALUES ?type {  wd:Q6465 wd:Q202216  }
 
-"""
+                    ?departement wdt:P31 ?type;
+                    wdt:P2586 ?code_insee.
 
-query_drp = """
+                    ?commune wdt:P31 wd:Q484170;
+                    wdt:P1082 ?communePopulation.
+                    
+                    ?region wdt:P31 wd:Q36784.
 
-"""
+                    ?commune wdt:P131 ?departement.
+                    ?departement wdt:P131 ?region.
+                    
+                    FILTER (?communePopulation > 25000).
+                    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                    }
+            """
+
+
+query_drap = """SELECT DISTINCT ?departementLabel ?drapeau ?code_insee
+                WHERE {
+                    VALUES ?type {  wd:Q6465 wd:Q202216  }
+
+                    ?departement wdt:P31 ?type;
+                    wdt:P2586 ?code_insee;
+                    wdt:P41 ?drapeau.
+
+                    FILTER NOT EXISTS { 
+                        FILTER(regex(str(?drapeau), "Flag%20of%20France" )).}
+                    
+                    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                    }
+                        
+                    ORDER BY ?code_insee"""
+
+query_lieu = """SELECT DISTINCT ?departementLabel ?lieu ?imagelieu ?code_insee
+                    WHERE 
+                        {
+                        ?departement wdt:P31 wd:Q6465.
+                        
+                        ?lieu wdt:P31 wd:Q570116;
+                        wdt:P2586 ?code_insee;
+                        wdt:P18 ?imagelieu;
+                        wdt:P131 ?location.
+                        
+                        ?location wdt:P131 ?departement.
+                        
+                        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                        }
+                        
+                        ORDER BY ?code_insee"""
 
 # Si une query est faite pour chaque question générée
 AVAILABLE_QUERIES = {
-    'departement': query_dpt,
+    'departement': query_gen,
     'commune': query_cmn, 
-    'drapeau': query_drp
+    'drapeau': query_drap,
+    "lieu":query_lieu
 }
 
 # Si les queries sont exécutées puis stockées
