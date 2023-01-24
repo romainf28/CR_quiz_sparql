@@ -40,7 +40,7 @@ AVAILABLE_QUESTION_TYPES = {
     },
     'dpt_drapeau': {
         'answer_attr': 'drapeau',
-        'query_type': 'drapeau',
+        'query_type': 'departement',
         'question': 'Quel est le drapeau du département X ?'
     },
     'cmn_region': {
