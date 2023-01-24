@@ -47,7 +47,7 @@ AVAILABLE_QUESTION_TYPES = {
     'dpt_drapeau': {
         'question_attr': 'departementLabel',
         'answer_attr': 'drapeau',
-        'query_type': 'departement',
+        'query_type': 'drapeau',
         'question': 'Quel est le drapeau du département X ?'
     },
     'cmn_region': {
@@ -79,6 +79,12 @@ AVAILABLE_QUESTION_TYPES = {
         'answer_attr': 'communeLabel',
         'query_type': 'commune',
         'question': 'Quelle commune correspond au code commune X ?'
+    },
+    'lieu_dpt': {
+        'question_attr': 'lieu',
+        'answer_attr': 'departementLabel',
+        'query_type': 'lieu',
+        'question': 'Dans quel département se situe le lieu X ?'
     }
 }
 
@@ -116,9 +122,7 @@ query_cmn = """
                     
                     FILTER (?communePopulation > 25000).
                     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
-                    }
-            """
-
+                    }"""
 
 query_drap = """SELECT DISTINCT ?departementLabel ?drapeau ?code_insee
                 WHERE {
@@ -158,14 +162,15 @@ AVAILABLE_QUERIES = {
     'departement': query_gen,
     'commune': query_cmn, 
     'drapeau': query_drap,
-    "lieu":query_lieu
+    "lieu": query_lieu
 }
 
 # Si les queries sont exécutées puis stockées
 AVAILABLE_DATAFRAMES = {
     'departement': None,
     'commune': None,
-    'drapeau': None
+    'drapeau': None,
+    'lieu': None
 } 
 
 # On peut avoir besoin des deux dans le cas où on exécute la query la 1ere fois qu'on la croise puis qu'on stocke le résultat pour ne pas avoir à la réexécuter.
@@ -225,8 +230,11 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
             # pour ne passer en argument que la clé, pas la longue str de la query
             query=AVAILABLE_QUERIES[q_spec['query_type']] # FIXME: à virer lorsque que la modification du dessus sera faite
         )
+        
+        # FIXME: Si on veut pouvoir récupérer plusieurs attributs pour la question il faut transformer 'question_attr' en liste d'attributs
+        # La méthode generate question devra le traiter en conséquence
 
-        if q_spec['answer_attr'] == answer_prop.removesuffix('.value'): # FIXME: cette vérif peut être faite dans le query handler
+        if q_spec['answer_attr'] == answer_prop.removesuffix('.value'): # FIXME: cette vérif peut maintenant être faite dans le query handler
             to_ask = q_spec['question'].replace('X', element)
             question_list.append(to_ask)
             options.append(answer)
