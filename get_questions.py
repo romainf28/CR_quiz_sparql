@@ -14,62 +14,59 @@ handler = QueryHandler()
 
 AVAILABLE_QUESTION_TYPES = {
     'dpt_code': {
-        'answer_attr': 'code_insee.value',
+        'answer_attr': 'code_insee',
         'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'question': 'Quel est le numéro du département X ?'
     },
     'code_dpt': {
-        'answer_attr': 'code_insee.value',
+        'answer_attr': 'departementLabel',
         'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'question': 'Quel est le département correspondant au numéro X ?'
     },
     'dpt_capitale': {
-        'answer_attr': 'code_insee.value',
+        'answer_attr': 'capitaleLabel',
         'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'question': 'Quelle est la capitale du département X ?'
     }, 
     'dpt_population': {
-        'answer_attr': 'code_insee.value',
+        'answer_attr': 'Population',
         'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'question': 'Quelle est la population du département X ?'
     },
-    #'population_dpt',
     'dpt_surface': {
-        'answer_attr': 'code_insee.value',
+        'answer_attr': 'Area',
         'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'question': 'Quelle est la surface du département X ?'
     },
     'dpt_drapeau': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'drapeau',
+        'query_type': 'drapeau',
+        'question': 'Quel est le drapeau du département X ?'
     },
-    #'surface_dpt', 
     'cmn_region': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'regionLabel',
+        'query_type': 'commune',
+        'question': 'A quelle région appartient la commune X ?'
     }, 
     'cmn_dpt': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'departementLabel',
+        'query_type': 'commune',
+        'question': 'A quel département appartient la commune X ?'
     },
     'cmn_population': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'communePopulation',
+        'query_type': 'commune',
+        'question': 'Quelle est la population de la commune X ?'
     },
-    #'population_cmn',
     'cmn_code': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'codecommune',
+        'query_type': 'commune',
+        'question': 'Quel est le code commune de la commune X ?'
     },
     'code_cmn': {
-        'answer_attr': 'code_insee.value',
-        'query_type': 'departement',
-        'question': 'Quel est le numéro du département nommé X ?'
+        'answer_attr': 'communeLabel',
+        'query_type': 'commune',
+        'question': 'Quelle commune correspond au code commune X ?'
     }
 }
 
