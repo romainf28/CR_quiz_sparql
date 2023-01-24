@@ -1,6 +1,12 @@
-from query_handler import QueryHandler
-import pandas as pd
+import warnings
+from play import Quiz
+warnings.filterwarnings("ignore")
 
-handler = QueryHandler()
-df_res = handler.execute_query(handler.query)
-df_res.to_csv('results.csv')
+
+def launch_quiz():
+    quiz = Quiz(nb_questions= 10)
+    quiz.play()
+
+
+if __name__ == '__main__':
+    launch_quiz()
