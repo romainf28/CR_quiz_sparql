@@ -4,6 +4,105 @@ import random
 handler = QueryHandler()
 
 
+# Un code question a une typologie de type 'x_y' pour une question 'quel est le y de l'objet x ?'
+# AVAILABLE_QUESTION_TYPES est un dictionnaire qui permet de construire la fonction de génération de question avec ses réponses.
+# C'est un dictionnaire (ou json), ayant un attribut par type de question possible.
+# Pour chaque type de question on va retrouver 
+# answer_attr : le nom de colonne espéré de la réponse
+# query_type : à valeur dans ['departement', 'commune', 'drapeau'], indique dans quelle query ou df chercher la réponse
+# question : intitulé de la question à poser. Doit contenir un X majuscule qui sera remplacé par la donnée de l'énoncé
+
+AVAILABLE_QUESTION_TYPES = {
+    'dpt_code': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    'code_dpt': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    'dpt_capitale': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    }, 
+    'dpt_population': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    #'population_dpt',
+    'dpt_surface': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    'dpt_drapeau': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    #'surface_dpt', 
+    'cmn_region': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    }, 
+    'cmn_dpt': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    'cmn_population': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    #'population_cmn',
+    'cmn_code': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    },
+    'code_cmn': {
+        'answer_attr': 'code_insee.value',
+        'query_type': 'departement',
+        'question': 'Quel est le numéro du département nommé X ?'
+    }
+}
+
+
+query_dpt = """
+
+"""
+
+query_cmn = """
+
+"""
+
+query_drp = """
+
+"""
+
+# Si une query est faite pour chaque question générée
+AVAILABLE_QUERIES = {
+    'departement': query_dpt,
+    'commune': query_cmn, 
+    'drapeau': query_drp
+}
+
+# Si les queries sont exécutées puis stockées
+AVAILABLE_DATAFRAMES = {
+    'departement': None,
+    'commune': None,
+    'drapeau': None
+} 
+
+# On peut avoir besoin des deux dans le cas où on exécute la query la 1ere fois qu'on la croise puis qu'on stocke le résultat pour ne pas avoir à la réexécuter.
+
+
 def get_questions(question_type):
     match question_type:
         case 'dpt_code':
@@ -18,7 +117,7 @@ def get_dpt_code_questions(nb_questions=10):
     answer_list = []
 
     for _ in range(nb_questions):
-        element, answer_prop, answer, options = handler.generate_question()
+        element, answer_prop, answer, options = handler.generate_question(question_type='dpt_code')
 
         if 'code_insee' == answer_prop.removesuffix('.value'):
             to_ask = 'Quel est le numéro du département nommé {} ?'.format(
