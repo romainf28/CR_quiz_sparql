@@ -1,5 +1,6 @@
 from query_handler import QueryHandler
 import random
+from os.path import exists
 
 handler = QueryHandler()
 
@@ -14,56 +15,67 @@ handler = QueryHandler()
 
 AVAILABLE_QUESTION_TYPES = {
     'dpt_code': {
+        'question_attr': 'departementLabel',
         'answer_attr': 'code_insee',
         'query_type': 'departement',
         'question': 'Quel est le numéro du département X ?'
     },
     'code_dpt': {
+        'question_attr': 'code_insee',
         'answer_attr': 'departementLabel',
         'query_type': 'departement',
         'question': 'Quel est le département correspondant au numéro X ?'
     },
     'dpt_capitale': {
+        'question_attr': 'departementLabel',
         'answer_attr': 'capitaleLabel',
         'query_type': 'departement',
         'question': 'Quelle est la capitale du département X ?'
     }, 
     'dpt_population': {
+        'question_attr': 'departementLabel',
         'answer_attr': 'Population',
         'query_type': 'departement',
         'question': 'Quelle est la population du département X ?'
     },
     'dpt_surface': {
+        'question_attr': 'departementLabel',
         'answer_attr': 'Area',
         'query_type': 'departement',
         'question': 'Quelle est la surface du département X ?'
     },
     'dpt_drapeau': {
+        'question_attr': 'departementLabel',
         'answer_attr': 'drapeau',
         'query_type': 'departement',
         'question': 'Quel est le drapeau du département X ?'
     },
     'cmn_region': {
+        'question_attr': 'communeLabel',
         'answer_attr': 'regionLabel',
         'query_type': 'commune',
         'question': 'A quelle région appartient la commune X ?'
     }, 
     'cmn_dpt': {
+        'question_attr': 'communeLabel',
         'answer_attr': 'departementLabel',
         'query_type': 'commune',
         'question': 'A quel département appartient la commune X ?'
     },
     'cmn_population': {
+        'question_attr': 'communeLabel',
         'answer_attr': 'communePopulation',
         'query_type': 'commune',
         'question': 'Quelle est la population de la commune X ?'
     },
     'cmn_code': {
+        'question_attr': 'communeLabel',
         'answer_attr': 'codecommune',
         'query_type': 'commune',
         'question': 'Quel est le code commune de la commune X ?'
     },
     'code_cmn': {
+        'question_attr': 'codecommune',
         'answer_attr': 'communeLabel',
         'query_type': 'commune',
         'question': 'Quelle commune correspond au code commune X ?'
@@ -126,3 +138,43 @@ def get_dpt_code_questions(nb_questions=10):
         option_list.append(options)
 
     return question_list, answer_list, option_list
+
+
+def get_questions(nb_question=10, question_type=None, question_types=None):
+    """Propose 'nb_question' questions et leurs réponses.
+    
+    Les questions peuvent être de type différents. Par défaut, on sélectionne aléatoirement le type de chaque question parmi les thèmes possibles. 
+    Si un question_type est spécifié, on ne prend que des questions de ce thème.
+    Si un question_types est spécifié, on prend aléatoirement des questions parmi la liste des thèmes proposés.
+    Les thèmes proposés doivent être des valeurs de code question valide, à savoir les clés du dictionnaire AVAILABLE_QUESTION_TYPES.
+    """
+    question_list = []
+    option_list = []
+    answer_list = []
+    for _ in range(nb_question):
+        
+        q_type = question_type or random.choice(question_types) or random.choice(AVAILABLE_QUESTION_TYPES.keys())
+        q_spec = AVAILABLE_QUESTION_TYPES.keys()
+        path_to_dataframe = f'{q_type}.csv'
+        
+        # On regarde dans la fonction generate_question si la query a déjà été effectuée ou non
+        # On ne s'en soucie pas ici du coup
+        element, answer_prop, answer, options = handler.generate_question(
+            question_attr=q_spec['question_attr'],
+            answer_attr=q_spec['answer_attr'],
+            query_type=q_spec['query_type'], # FIXME: le plus simple serait de basculer le dict des queries dans le query handler
+            # pour ne passer en argument que la clé, pas la longue str de la query
+            query=AVAILABLE_QUERIES[q_spec['query_type']] # FIXME: à virer lorsque que la modification du dessus sera faite
+        )
+
+        if q_spec['answer_attr'] == answer_prop.removesuffix('.value'): # FIXME: cette vérif peut être faite dans le query handler
+            to_ask = q_spec['question'].replace('X', element)
+            question_list.append(to_ask)
+            options.append(answer)
+            random.shuffle(options)
+            answer_list.append(answer)
+            option_list.append(options)
+
+    return question_list, answer_list, option_list
+            
+        
