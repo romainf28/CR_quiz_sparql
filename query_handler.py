@@ -1,29 +1,15 @@
-import requests
 import pandas as pd
 import random
-import re
+import os
 from SPARQLWrapper import SPARQLWrapper, JSON
-import numpy as np
 import random
+from queries import AVAILABLE_QUESTION_TYPES, AVAILABLE_QUERIES
 
 
 class QueryHandler():
     def __init__(self, url="https://query.wikidata.org/sparql"):
         self.url = url
         self.sparql_wrapper = SPARQLWrapper(url)
-        self.limit = 30
-        self.query = """SELECT DISTINCT ?item ?code_insee ?itemLabel ?drapeau WHERE 
-                        {
-                        VALUES ?type {  wd:Q6465 wd:Q202216  }
-                        ?item wdt:P31 ?type;
-                        wdt:P2586 ?code_insee;
-                        wdt:P41 ?drapeau.
-                        FILTER NOT EXISTS { 
-                            FILTER(regex(str(?drapeau), "Flag%20of%20France" )) . 
-                        }
-                        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
-                        }
-                        ORDER BY ?code_insee"""
 
     def execute_query(self, query):
         self.sparql_wrapper.setQuery(query)
@@ -35,43 +21,45 @@ class QueryHandler():
     def filter_properties(self, properties):
         return [prop for prop in properties if prop.endswith("value") and prop != "item.value" and prop != "itemLabel.value"]
 
-    def check_if_url(self, df, candidate, property):
-        name = list(df[df["item.value"] == candidate]
-                    ["itemLabel.value"].drop_duplicates())[0]
-        if '//' in property or '//' in name:
-            return None
-        return name
+    # def check_if_url(self, df, candidate, property):
+    #     name = list(df[df["item.value"] == candidate]
+    #                 ["itemLabel.value"].drop_duplicates())[0]
+    #     if '//' in property or '//' in name:
+    #         return None
+    #     return name
 
-    def select_answer_and_options(self, df):
+    def select_answer_and_options(self, df, question_type):
         ids = list(df["item.value"].drop_duplicates())
-        selected = False
-        properties = self.filter_properties(df.columns)
-        answer_prop = random.choice(properties)
-        while not selected:
-            if len(ids) == 0:
-                print("Error")
-                exit(0)
+        question_attr = AVAILABLE_QUESTION_TYPES[question_type]['question_attr']
+        answer_prop = AVAILABLE_QUESTION_TYPES[question_type]['answer_attr']
+        # properties = self.filter_properties(df.columns)
+        # answer_prop = random.choice(properties)
 
-            candidate_id = random.choice(ids)
-            ids.remove(candidate_id)
+        if len(ids) == 0:
+            print("Error")
+            exit(0)
 
-            name = self.check_if_url(df,
-                                     candidate_id,
-                                     answer_prop)
-            if name:
-                selected = True
+        candidate_id = random.choice(ids)
+        element = list(df[df["item.value"] == candidate_id]
+                       [f'{question_attr}.value'].drop_duplicates())[0]
+        # ids.remove(candidate_id)
+
+        # name = self.check_if_url(df,
+        #                          candidate_id,
+        #                          answer_prop)
         answer = list(df[df["item.value"] == candidate_id]
                       [answer_prop].drop_duplicates())[0]
         options = list(df[df["item.value"] != candidate_id]
                        [answer_prop].drop_duplicates())
         random.shuffle(options)
-        return name, answer_prop, answer, options[:3]
+        return element, answer, options[:3]
 
-    def generate_question(self):
-        res_df = self.execute_query(self.query)
-        return self.select_answer_and_options(res_df)
-
-
-handler = QueryHandler()
-df_res = handler.execute_query(handler.query)
-df_res.to_csv('results.csv')
+    def generate_question(self, question_type):
+        query_type = AVAILABLE_QUESTION_TYPES[question_type]['query_type']
+        if not (os.path.isfile('dataframes/{}.csv'.format(query_type))):
+            query = AVAILABLE_QUERIES[query_type]
+            res_df = self.execute_query(query)
+            res_df.to_csv('dataframes/{}.csv'.format(query_type), index=False)
+        else:
+            res_df = pd.read_csv('dataframes/{}.csv'.format(query_type))
+        return self.select_answer_and_options(res_df, question_type)
