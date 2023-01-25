@@ -204,7 +204,7 @@ def get_dpt_code_questions(nb_questions=10):
     return question_list, answer_list, option_list
 
 
-def get_questions(nb_question=10, question_type=None, question_types=None):
+def get_questions_v2(nb_question=10, question_type=None, question_types=None):
     """Propose 'nb_question' questions et leurs réponses.
     
     Les questions peuvent être de type différents. Par défaut, on sélectionne aléatoirement le type de chaque question parmi les thèmes possibles. 
