@@ -37,11 +37,12 @@ AVAILABLE_QUESTION_TYPES = {
         'query_type': 'departement',
         'question': 'Quelle est la surface du département X ?'
     },
-    'dpt_drapeau': {
+    'code_drapeau': {
         'question_attr': 'departementLabel',
-        'answer_attr': 'drapeau',
+        'answer_attr': 'code_insee',
         'query_type': 'drapeau',
-        'question': 'Quel est le drapeau du département X ?'
+        'question': 'Quel est le drapeau du département X ?',
+        'image': True
     },
     'cmn_region': {
         'question_attr': 'communeLabel',
@@ -81,7 +82,7 @@ AVAILABLE_QUESTION_TYPES = {
     }
 }
 
-query_gen = """SELECT DISTINCT ?code_insee ?departementLabel ?drapeau ?Area ?capitaleLabel ?departementPopulation ?regionLabel
+query_gen = """SELECT DISTINCT ?departement ?code_insee ?departementLabel ?drapeau ?Area ?capitaleLabel ?departementPopulation ?regionLabel
 
                 WHERE {
                     VALUES ?type {  wd:Q6465 wd:Q202216  }
@@ -98,7 +99,7 @@ query_gen = """SELECT DISTINCT ?code_insee ?departementLabel ?drapeau ?Area ?cap
                     ORDER BY ?code_insee"""
 
 query_cmn = """
-                SELECT DISTINCT ?departementLabel ?communeLabel ?regionLabel ?code_insee
+                SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?regionLabel ?code_insee
                 WHERE {
                     VALUES ?type {  wd:Q6465 wd:Q202216  }
 
@@ -117,7 +118,7 @@ query_cmn = """
                     SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
                     }"""
 
-query_drap = """SELECT DISTINCT ?departementLabel ?drapeau ?code_insee
+query_drap = """SELECT DISTINCT ?departement ?departementLabel ?drapeau ?code_insee
                 WHERE {
                     VALUES ?type {  wd:Q6465 wd:Q202216  }
 
@@ -133,7 +134,7 @@ query_drap = """SELECT DISTINCT ?departementLabel ?drapeau ?code_insee
                         
                     ORDER BY ?code_insee"""
 
-query_lieu = """SELECT DISTINCT ?departementLabel ?lieu ?imagelieu ?code_insee
+query_lieu = """SELECT DISTINCT ?departement ?departementLabel ?lieu ?imagelieu ?code_insee
                     WHERE 
                         {
                         ?departement wdt:P31 wd:Q6465.

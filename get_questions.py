@@ -55,6 +55,9 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
 
         element, answer, options = handler.generate_question(q_type)
 
+        if AVAILABLE_QUESTION_TYPES[q_type].get('image'):
+            options, answer = get_image_options(q_type, options, answer)
+
         # On regarde dans la fonction generate_question si la query a déjà été effectuée ou non
         # On ne s'en soucie pas ici du coup
         # element, answer_prop, answer, options = handler.generate_question(
@@ -81,3 +84,15 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
             option_list.append(options)
 
     return question_list, answer_list, option_list
+
+
+def get_image_options(question_type, options, answer):
+    match question_type:
+        case 'code_drapeau':
+            options = list(
+                map(lambda code: f'assets/flags/{code}.png', options))
+            answer = f'assets/flags/{answer}.png'
+            return options, answer
+        case _:
+            raise Exception(
+                'This type of question is not supposed to return images')

@@ -29,7 +29,9 @@ class QueryHandler():
     #     return name
 
     def select_answer_and_options(self, df, question_type):
-        ids = list(df["item.value"].drop_duplicates())
+
+        ids = list(df["departement.value"].drop_duplicates())
+
         question_attr = AVAILABLE_QUESTION_TYPES[question_type]['question_attr']
         answer_prop = AVAILABLE_QUESTION_TYPES[question_type]['answer_attr']
         # properties = self.filter_properties(df.columns)
@@ -40,19 +42,20 @@ class QueryHandler():
             exit(0)
 
         candidate_id = random.choice(ids)
-        element = list(df[df["item.value"] == candidate_id]
+        element = list(df[df["departement.value"] == candidate_id]
                        [f'{question_attr}.value'].drop_duplicates())[0]
         # ids.remove(candidate_id)
 
         # name = self.check_if_url(df,
         #                          candidate_id,
         #                          answer_prop)
-        answer = list(df[df["item.value"] == candidate_id]
-                      [answer_prop].drop_duplicates())[0]
-        options = list(df[df["item.value"] != candidate_id]
-                       [answer_prop].drop_duplicates())
-        random.shuffle(options)
-        return element, answer, options[:3]
+
+        answer = list(df[df["departement.value"] == candidate_id]
+                      [f'{answer_prop}.value'].drop_duplicates())[0]
+        options = list(df[df["departement.value"] != candidate_id]
+                       [f'{answer_prop}.value'].drop_duplicates())
+
+        return element, answer, random.sample(options, 3)
 
     def generate_question(self, question_type):
         query_type = AVAILABLE_QUESTION_TYPES[question_type]['query_type']
@@ -63,3 +66,8 @@ class QueryHandler():
         else:
             res_df = pd.read_csv('dataframes/{}.csv'.format(query_type))
         return self.select_answer_and_options(res_df, question_type)
+
+
+handler = QueryHandler()
+res_df = handler.execute_query(AVAILABLE_QUERIES['departement'])
+res_df.to_csv('results.csv')
