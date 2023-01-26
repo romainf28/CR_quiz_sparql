@@ -6,6 +6,7 @@ from tkinter import messagebox as mb
 
 from get_questions import get_questions
 from PIL import Image, ImageTk
+from queries import AVAILABLE_QUESTION_TYPES
 
 
 class Quiz:
@@ -14,12 +15,10 @@ class Quiz:
 
         self.images = [None for i in range(4)]
 
-        self.question_type = 'code_drapeau'
-
         self.question_number = 0
 
-        self.question_list, self.answers, self.option_list = get_questions(nb_questions,
-                                                                           self.question_type)
+        self.question_list, self.answers, self.option_list, self.question_types = get_questions(
+            nb_questions)
         self.selected_option = IntVar()
 
         self.nb_correct = 0
@@ -81,7 +80,8 @@ class Quiz:
         i = 0
         self.selected_option.set(0)
 
-        if self.question_type in ['code_drapeau']:
+        question_type = self.question_types[self.question_number]
+        if AVAILABLE_QUESTION_TYPES[question_type].get('image'):
             for opt in self.option_list[self.question_number]:
                 img = Image.open(opt)
                 resized_img = img.resize((120, 60))

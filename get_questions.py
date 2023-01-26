@@ -46,12 +46,13 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
     question_list = []
     option_list = []
     answer_list = []
+    question_type_list = []
 
-    q_spec = AVAILABLE_QUESTION_TYPES.keys()
+    q_spec = list(AVAILABLE_QUESTION_TYPES.keys())
     while len(question_list) < nb_question:
 
         q_type = question_type or random.choice(
-            question_types) or random.choice(q_spec)
+            question_types) if question_types else None or random.choice(q_spec)
 
         element, answer, options = handler.generate_question(q_type)
 
@@ -82,8 +83,9 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
             random.shuffle(options)
             answer_list.append(answer)
             option_list.append(options)
+            question_type_list.append(q_type)
 
-    return question_list, answer_list, option_list
+    return question_list, answer_list, option_list, question_type_list
 
 
 def get_image_options(question_type, options, answer):

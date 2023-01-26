@@ -27,7 +27,7 @@ AVAILABLE_QUESTION_TYPES = {
     },
     'dpt_population': {
         'question_attr': 'departementLabel',
-        'answer_attr': 'Population',
+        'answer_attr': 'departementPopulation',
         'query_type': 'departement',
         'question': 'Quelle est la population du département X ?'
     },
@@ -35,7 +35,7 @@ AVAILABLE_QUESTION_TYPES = {
         'question_attr': 'departementLabel',
         'answer_attr': 'Area',
         'query_type': 'departement',
-        'question': 'Quelle est la surface du département X ?'
+        'question': 'Quelle est la surface du département X en km^2 ?'
     },
     'code_drapeau': {
         'question_attr': 'departementLabel',
@@ -64,15 +64,15 @@ AVAILABLE_QUESTION_TYPES = {
     },
     'cmn_code': {
         'question_attr': 'communeLabel',
-        'answer_attr': 'codecommune',
+        'answer_attr': 'code_commune',
         'query_type': 'commune',
-        'question': 'Quel est le code commune de la commune X ?'
+        'question': 'Quel est le code postal de la commune X ?'
     },
     'code_cmn': {
-        'question_attr': 'codecommune',
+        'question_attr': 'code_commune',
         'answer_attr': 'communeLabel',
         'query_type': 'commune',
-        'question': 'Quelle commune correspond au code commune X ?'
+        'question': 'Quelle commune correspond au code postal X ?'
     },
     'lieu_dpt': {
         'question_attr': 'lieu',
@@ -99,7 +99,7 @@ query_gen = """SELECT DISTINCT ?departement ?code_insee ?departementLabel ?drape
                     ORDER BY ?code_insee"""
 
 query_cmn = """
-                SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?regionLabel ?code_insee
+                SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?communePopulation ?code_commune ?regionLabel ?code_insee
                 WHERE {
                     VALUES ?type {  wd:Q6465 wd:Q202216  }
 
@@ -107,7 +107,8 @@ query_cmn = """
                     wdt:P2586 ?code_insee.
 
                     ?commune wdt:P31 wd:Q484170;
-                    wdt:P1082 ?communePopulation.
+                    wdt:P1082 ?communePopulation;
+                    wdt:P281 ?code_commune.
                     
                     ?region wdt:P31 wd:Q36784.
 
