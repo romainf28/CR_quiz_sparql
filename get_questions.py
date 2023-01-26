@@ -76,7 +76,7 @@ def get_questions(nb_question=10, question_type=None, question_types=None):
 
         # FIXME: cette vérif peut maintenant être faite dans le query handler
         to_ask = AVAILABLE_QUESTION_TYPES[q_type]['question'].replace(
-            'X', element)
+            'X', str(element))
         if to_ask not in (question_list):
             question_list.append(to_ask)
             options.append(answer)

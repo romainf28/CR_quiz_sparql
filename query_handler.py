@@ -49,7 +49,6 @@ class QueryHandler():
         # name = self.check_if_url(df,
         #                          candidate_id,
         #                          answer_prop)
-
         answer = list(df[df["departement.value"] == candidate_id]
                       [f'{answer_prop}.value'].drop_duplicates())[0]
         options = list(df[df["departement.value"] != candidate_id]

@@ -75,7 +75,7 @@ AVAILABLE_QUESTION_TYPES = {
         'question': 'Quelle commune correspond au code postal X ?'
     },
     'lieu_dpt': {
-        'question_attr': 'lieu',
+        'question_attr': 'lieuLabel',
         'answer_attr': 'departementLabel',
         'query_type': 'lieu',
         'question': 'Dans quel département se situe le lieu X ?'
@@ -135,13 +135,13 @@ query_drap = """SELECT DISTINCT ?departement ?departementLabel ?drapeau ?code_in
                         
                     ORDER BY ?code_insee"""
 
-query_lieu = """SELECT DISTINCT ?departement ?departementLabel ?lieu ?imagelieu ?code_insee
+query_lieu = """SELECT DISTINCT ?departement ?departementLabel ?lieu ?lieuLabel ?imagelieu ?code_insee
                     WHERE 
                         {
-                        ?departement wdt:P31 wd:Q6465.
+                        ?departement wdt:P31 wd:Q6465;
+                        wdt:P2586 ?code_insee.
                         
                         ?lieu wdt:P31 wd:Q570116;
-                        wdt:P2586 ?code_insee;
                         wdt:P18 ?imagelieu;
                         wdt:P131 ?location.
                         
