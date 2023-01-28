@@ -45,7 +45,7 @@ class Quiz:
         row = 2
 
         while len(option_list) < 4:
-            radio_btn = Radiobutton(self.gui, text="default", variable=self.selected_option,
+            radio_btn = Radiobutton(self.gui, text="", variable=self.selected_option,
                                     value=len(option_list)+1, font=('ariel', 14))
 
             option_list.append(radio_btn)
@@ -101,6 +101,7 @@ class Quiz:
             if self.check_answer(self.question_number):
                 self.nb_correct += 1
 
+            self.reset_buttons()
             self.question_number += 1
 
             if self.question_number == self.nb_questions:
@@ -122,3 +123,8 @@ class Quiz:
         title = Label(self.gui, text='Quiz sur les départements français',
                       bg='green', fg='white', font=('ariel', 20, 'bold'))
         title.grid(row=0, column=0, columnspan=3, sticky="NSEW")
+
+    def reset_buttons(self):
+        for btn in self.radio_btns:
+            btn.destroy()
+        self.radio_btns = self.radio_buttons()

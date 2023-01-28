@@ -38,7 +38,7 @@ handler = QueryHandler()
 def get_questions(nb_question=10, question_type=None, question_types=None):
     """Propose 'nb_question' questions et leurs réponses.
 
-    Les questions peuvent être de type différents. Par défaut, on sélectionne aléatoirement le type de chaque question parmi les thèmes possibles. 
+    Les questions peuvent être de type différents. Par défaut, on sélectionne aléatoirement le type de chaque question parmi les thèmes possibles.
     Si un question_type est spécifié, on ne prend que des questions de ce thème.
     Si un question_types est spécifié, on prend aléatoirement des questions parmi la liste des thèmes proposés.
     Les thèmes proposés doivent être des valeurs de code question valide, à savoir les clés du dictionnaire AVAILABLE_QUESTION_TYPES.
@@ -95,6 +95,12 @@ def get_image_options(question_type, options, answer):
                 map(lambda code: f'assets/flags/{code}.png', options))
             answer = f'assets/flags/{answer}.png'
             return options, answer
+        case 'dpt_lieu':
+            options = list(
+                map(lambda place: f'assets/places/{place}.png', options))
+            answer = f'assets/places/{answer}.png'
+            return options, answer
+
         case _:
             raise Exception(
                 'This type of question is not supposed to return images')

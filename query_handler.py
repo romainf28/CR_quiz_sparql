@@ -42,15 +42,15 @@ class QueryHandler():
             exit(0)
 
         candidate_id = random.choice(ids)
-        element = list(df[df["departement.value"] == candidate_id]
-                       [f'{question_attr}.value'].drop_duplicates())[0]
+        element = random.choice(list(df[df["departement.value"] == candidate_id]
+                                     [f'{question_attr}.value'].drop_duplicates()))
         # ids.remove(candidate_id)
 
         # name = self.check_if_url(df,
         #                          candidate_id,
         #                          answer_prop)
-        answer = list(df[df["departement.value"] == candidate_id]
-                      [f'{answer_prop}.value'].drop_duplicates())[0]
+        answer = random.choice(list(df[df["departement.value"] == candidate_id]
+                                    [f'{answer_prop}.value'].drop_duplicates()))
         options = list(df[df["departement.value"] != candidate_id]
                        [f'{answer_prop}.value'].drop_duplicates())
 

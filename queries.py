@@ -79,6 +79,14 @@ AVAILABLE_QUESTION_TYPES = {
         'answer_attr': 'departementLabel',
         'query_type': 'lieu',
         'question': 'Dans quel département se situe le lieu X ?'
+    },
+    'dpt_lieu': {
+        'question_attr': 'departementLabel',
+        'answer_attr': 'lieuLabel',
+        'query_type': 'lieu',
+        'question': 'Lequel de ces lieux se situe dans le département X ?',
+        'image': True
+
     }
 }
 
@@ -99,25 +107,46 @@ query_gen = """SELECT DISTINCT ?departement ?code_insee ?departementLabel ?drape
                     ORDER BY ?code_insee"""
 
 query_cmn = """
-                SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?communePopulation ?code_commune ?regionLabel ?code_insee
-                WHERE {
-                    VALUES ?type {  wd:Q6465 wd:Q202216  }
+            SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?communePopulation ?code_commune ?regionLabel ?code_insee
+            WHERE {
+                {
+                    SELECT (?commune as ?departement) (?communeLabel as ?departementLabel) ?communeLabel ?communePopulation ?code_commune ?regionLabel ?code_insee
+                    WHERE {
+                        ?commune wdt:P31 wd:Q5119 .
+                        ?commune wdt:P17 wd:Q142 ;
+                        wdt:P1082 ?communePopulation;
+                        wdt:P2586 ?code_insee;
+                        wdt:P281 ?code_commune.
+                        ?metropole wdt:P31 wd:Q3333855 .
+                        ?region wdt:P31 wd:Q36784 .
 
-                    ?departement wdt:P31 ?type;
-                    wdt:P2586 ?code_insee.
+                        ?metropole  wdt:P131 ?region .
+                        SERVICE wikibase:label {bd:serviceParam wikibase:language "fr" .}
+                    }
+                }
+                UNION
+                {
+                    SELECT DISTINCT ?departement ?departementLabel ?communeLabel ?communePopulation ?code_commune ?regionLabel ?code_insee
+                    WHERE {
+                        VALUES ?type {  wd:Q6465 wd:Q202216  }
 
-                    ?commune wdt:P31 wd:Q484170;
-                    wdt:P1082 ?communePopulation;
-                    wdt:P281 ?code_commune.
-                    
-                    ?region wdt:P31 wd:Q36784.
+                        ?departement wdt:P31 ?type;
+                        wdt:P2586 ?code_insee.
 
-                    ?commune wdt:P131 ?departement.
-                    ?departement wdt:P131 ?region.
-                    
-                    FILTER (?communePopulation > 25000).
-                    SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
-                    }"""
+                        ?commune wdt:P31 wd:Q484170;
+                        wdt:P1082 ?communePopulation;
+                        wdt:P281 ?code_commune.
+                        ?region wdt:P31 wd:Q36784.
+                        ?commune wdt:P131 ?departement.
+                        ?departement wdt:P131 ?region.
+                        FILTER (?communePopulation > 25000).
+                        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
+                    }
+                }
+            }
+
+                
+"""
 
 query_drap = """SELECT DISTINCT ?departement ?departementLabel ?drapeau ?code_insee
                 WHERE {
@@ -135,7 +164,11 @@ query_drap = """SELECT DISTINCT ?departement ?departementLabel ?drapeau ?code_in
                         
                     ORDER BY ?code_insee"""
 
-query_lieu = """SELECT DISTINCT ?departement ?departementLabel ?lieu ?lieuLabel ?imagelieu ?code_insee
+query_lieu = """
+            SELECT DISTINCT ?departement ?departementLabel ?lieu ?lieuLabel ?imagelieu ?code_insee WHERE 
+            {
+                {
+                    SELECT DISTINCT ?departement ?departementLabel ?lieu ?lieuLabel ?imagelieu ?code_insee
                     WHERE 
                         {
                         ?departement wdt:P31 wd:Q6465;
@@ -150,7 +183,40 @@ query_lieu = """SELECT DISTINCT ?departement ?departementLabel ?lieu ?lieuLabel 
                         SERVICE wikibase:label { bd:serviceParam wikibase:language "fr" }
                         }
                         
-                        ORDER BY ?code_insee"""
+                        ORDER BY ?code_insee
+                }
+
+                UNION
+
+                {
+                    SELECT DISTINCT (?city as ?departement) (?cityLabel as ?departementLabel) ?lieu ?lieuLabel ?imagelieu ?code_insee
+                    WHERE 
+                        {
+                        ?arrondissement wdt:P31 wd:Q702842.
+
+                        ?city wdt:P31 wd:Q5119 .
+                        ?city wdt:P17 wd:Q142 ;
+                        wdt:P2586 ?code_insee;
+                        rdfs:label ?cityLabel.
+                        FILTER (lang(?cityLabel) = "fr").
+                        
+                        ?lieu wdt:P31 wd:Q570116;
+                        wdt:P18 ?imagelieu;
+                        wdt:P131 ?location.
+                        
+                        ?location wdt:P131 ?arrondissement.
+                        ?arrondissement wdt:P131 ?city
+                        
+                        SERVICE wikibase:label { bd:serviceParam wikibase:language "fr"}
+                        
+                        }
+                        
+                        ORDER BY ?code_insee
+                }
+
+            }
+"""
+
 
 # Si une query est faite pour chaque question générée
 AVAILABLE_QUERIES = {
