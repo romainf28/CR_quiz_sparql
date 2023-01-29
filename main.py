@@ -15,10 +15,10 @@ def launch_quiz():
     Grid.columnconfigure(gui, 0, weight=20)
 
     Grid.rowconfigure(gui, 1, weight=8)
-    Grid.columnconfigure(gui, 1, weight=5)
+    Grid.columnconfigure(gui, 1, weight=30)
 
     Grid.rowconfigure(gui, 2, weight=4)
-    Grid.columnconfigure(gui, 2, weight=55)
+    Grid.columnconfigure(gui, 2, weight=30)
 
     Grid.rowconfigure(gui, 3, weight=4)
     Grid.rowconfigure(gui, 4, weight=4)

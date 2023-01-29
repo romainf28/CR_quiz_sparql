@@ -50,7 +50,11 @@ class Quiz:
 
             option_list.append(radio_btn)
 
-            radio_btn.grid(row=row, column=1, columnspan=2, sticky="NW")
+            if AVAILABLE_QUESTION_TYPES[self.question_types[self.question_number]].get('image'):
+                radio_btn.grid(row=row - row %
+                               2, column=1+row % 2, sticky="NW")
+            else:
+                radio_btn.grid(row=row, column=1, columnspan=2, sticky="NW")
 
             row += 1
 
@@ -84,7 +88,7 @@ class Quiz:
         if AVAILABLE_QUESTION_TYPES[question_type].get('image'):
             for opt in self.option_list[self.question_number]:
                 img = Image.open(opt)
-                resized_img = img.resize((120, 60))
+                resized_img = img.resize((300, 150))
                 flag_img = ImageTk.PhotoImage(resized_img)
                 self.images[i] = flag_img
                 self.radio_btns[i].config(
@@ -101,8 +105,8 @@ class Quiz:
             if self.check_answer(self.question_number):
                 self.nb_correct += 1
 
-            self.reset_buttons()
             self.question_number += 1
+            self.reset_buttons()
 
             if self.question_number == self.nb_questions:
                 self.summary()
