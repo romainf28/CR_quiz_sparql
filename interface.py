@@ -106,13 +106,13 @@ class Quiz:
                 self.nb_correct += 1
 
             self.question_number += 1
-            self.reset_buttons()
 
             if self.question_number == self.nb_questions:
                 self.summary()
                 self.gui.destroy()
 
             else:
+                self.reset_buttons()
                 self.display_question()
                 self.display_options()
 
