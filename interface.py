@@ -9,11 +9,13 @@ from PIL import Image, ImageTk
 from queries import AVAILABLE_QUESTION_TYPES
 
 
-class Quiz:
+class Quiz(Tk):
     def __init__(self, gui, nb_questions=10):
         self.gui = gui
 
         self.images = [None for i in range(4)]
+
+        self.answer_image = None
 
         self.question_number = 0
 
@@ -103,8 +105,11 @@ class Quiz:
     def next_question(self):
         if self.selected_option.get() > 0:
             if self.check_answer(self.question_number):
+                mb.showinfo("Correct", "Bonne réponse, poursuivez ainsi !")
                 self.nb_correct += 1
 
+            else:
+                self.show_error_message()
             self.question_number += 1
 
             if self.question_number == self.nb_questions:
@@ -132,3 +137,45 @@ class Quiz:
         for btn in self.radio_btns:
             btn.destroy()
         self.radio_btns = self.radio_buttons()
+
+    def show_error_message(self):
+
+        question_type = self.question_types[self.question_number]
+        if AVAILABLE_QUESTION_TYPES[question_type].get('image'):
+            image = Image.open(self.answers[self.question_number])
+            image = image.resize((300, 150))
+            image = ImageTk.PhotoImage(image)
+            self.answer_image = image
+            self.gui.display_error_window(self.answer_image)
+        else:
+            mb.showerror("Erreur", "Mauvaise réponse ! La réponse correcte était " +
+                         str(self.answers[self.question_number]))
+
+
+class ErrorWindowWithImage(Toplevel):
+    def __init__(self, master, image):
+        Toplevel.__init__(self, master)
+        self.images = []
+
+        label_message = Label(self, text="Mauvaise réponse ! La réponse correcte était : ", font=(
+            "TkDefaultFont", 16), compound="bottom", image=image)
+        self.images.append(image)
+        label_message.image = self.images[0]
+        label_message.pack()
+
+        button = Button(self, text="OK", command=self.destroy)
+        button.pack()
+
+
+class MainWindow(Tk):
+    def __init__(self):
+        Tk.__init__(self)
+
+    def launch_quiz(self):
+        Quiz(self)
+
+    def display_error_window(self, image):
+        window = ErrorWindowWithImage(
+            self, image)
+        window.title("Erreur")
+        window.geometry("800x450")

@@ -1,11 +1,11 @@
 import warnings
-from interface import Quiz
+from interface import Quiz, MainWindow
 from tkinter import *
 warnings.filterwarnings("ignore")
 
 
-def launch_quiz():
-    gui = Tk()
+if __name__ == '__main__':
+    gui = MainWindow()
 
     gui.geometry("800x450")
 
@@ -25,10 +25,6 @@ def launch_quiz():
     Grid.rowconfigure(gui, 5, weight=4)
     Grid.rowconfigure(gui, 6, weight=17)
 
-    quiz = Quiz(gui)
+    gui.launch_quiz()
 
     gui.mainloop()
-
-
-if __name__ == '__main__':
-    launch_quiz()
