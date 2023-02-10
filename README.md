@@ -5,7 +5,6 @@ Infos disponibles :
 - Infos sur les communes (region, dpt, code_insee_dpt, commune_label, commune_population, code_commune)
 - Infos sur les lieux connus
 - Drapeaux des départements
-- Spécialité (pas exploitable en l'état, probablement à abandonner)
 
 
 
@@ -35,12 +34,26 @@ Questions possibles :
     
     Sur les drapeaux : 
     
-        (- A quel département ce drapeau appartient-il ?)
+        - A quel département ce drapeau appartient-il ?
         - Quel est le drapeau de ce département ?
         
         
     Sur les lieux connus : 
     
-        (- A quel département appartient ce lieu ?) Assez relou à requêter, on fera si on a le temps et la foi à la fin
+        - A quel département appartient ce lieu ?
     
+## 1. Comment utiliser le repo?
+
+Pour lancer notre quiz, il faut utiliser la commande <h1>python main.py</h1>. Cela lancera l'application tkinter pour 10 questions.
+
+## 2. Comment on a construit le quiz?
+
+### 2.1 Construction des requêtes
+Les requêtes ont été créées dans le fichier queries.py. Nous avons structuré notre code avec différents types de questions. Chaque type de question est associé à une requête.
+
+### 2.2 Création de la base de données
+Toutes les requêtes sont sauvegardées dans des csv après leur première execution. Cela permet que l'interface soit plus rapide et que l'interface puisse être utilisée sans internet après la première execution
+
+### 2.3 Interface
+Notre interface 
 
