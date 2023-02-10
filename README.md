@@ -2,7 +2,7 @@
 
 ## 1. Comment utiliser le repo?
 
-Pour lancer notre quiz, il faut utiliser la commande <h1>python main.py</h1>. Cela lancera l'application tkinter pour 10 questions.
+Pour lancer notre quiz, il faut utiliser la commande python 'main.py'. Cela lancera l'application tkinter pour 10 questions.
 
 ## 2. Comment on a construit le quiz?
 
@@ -10,6 +10,7 @@ Pour lancer notre quiz, il faut utiliser la commande <h1>python main.py</h1>. Ce
 Les requêtes ont été créées dans le fichier queries.py. Nous avons structuré notre code avec différents types de questions. Chaque type de question est associé à une requête. Voici les différents type de question et informations disponibles: 
 
 Infos disponibles : 
+
 - Infos sur les départements (nom_dpt, code_insee_dpt, capitale, population, surface)
 - Infos sur les communes (region, dpt, code_insee_dpt, commune_label, commune_population, code_commune)
 - Infos sur les lieux connus
