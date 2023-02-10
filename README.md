@@ -11,10 +11,10 @@ Les requêtes ont été créées dans le fichier queries.py. Nous avons structur
 
 Infos disponibles : 
 
-- Infos sur les départements (nom_dpt, code_insee_dpt, capitale, population, surface)
-- Infos sur les communes (region, dpt, code_insee_dpt, commune_label, commune_population, code_commune)
-- Infos sur les lieux connus
-- Drapeaux des départements
+    - Infos sur les départements (nom_dpt, code_insee_dpt, capitale, population, surface)
+    - Infos sur les communes (region, dpt, code_insee_dpt, commune_label, commune_population, code_commune)
+    - Infos sur les lieux connus
+    - Drapeaux des départements
 
 Questions possibles : 
     
