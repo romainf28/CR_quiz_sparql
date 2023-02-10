@@ -2,7 +2,7 @@
 
 ## 1. Comment utiliser le repo?
 
-Pour lancer notre quiz, il faut utiliser la commande python ```main.py```. Cela lancera l'application tkinter pour 10 questions.
+Pour lancer notre quiz, il faut utiliser la commande ```python main.py```. Cela lancera l'application tkinter pour 10 questions.
 
 ## 2. Comment on a construit le quiz?
 
