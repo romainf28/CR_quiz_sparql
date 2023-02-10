@@ -2,19 +2,19 @@
 
 ## 1. Comment utiliser le repo?
 
-Pour lancer notre quiz, il faut utiliser la commande ```python main.py```. Cela lancera l'application tkinter pour 10 questions.
+Pour lancer notre quiz, il faut utiliser la commande ```python main.py```. Par défaut, cela lancera l'application tkinter pour 10 questions. Le nombre de questions posées dans le quiz ainsi que le type de questions posées sont paramétrables via les arguments ```nb_questions``` et ```question_types``` de la classe ```Quiz``` (définie dans interface.py). Les types de questions autorisés que l'on peut passer dans la liste ```question_types``` sont définis dans le dictionnaire ```AVAILABLE_QUESTION_TYPES```, dans le fichier ```queries.py```.
 
-## 2. Comment on a construit le quiz?
+## 2. Comment a-t-on construit le quiz?
 
 ### 2.1 Construction des requêtes
-Les requêtes ont été créées dans le fichier queries.py. Nous avons structuré notre code avec différents types de questions. Chaque type de question est associé à une requête. Voici les différents type de question et informations disponibles: 
+Les requêtes ont été écrites dans le fichier ```queries.py```. Il s'agit de requêtes SPARQL faites à wikidata via un handler défini dans le fichier ```query_handler.py```. Nous avons structuré notre code avec différents types de questions. Chaque type de question est associé à une requête. Voici les différents type de question et informations disponibles: 
 
 Infos disponibles : 
 
     - Infos sur les départements (nom_dpt, code_insee_dpt, capitale, population, surface)
     - Infos sur les communes (region, dpt, code_insee_dpt, commune_label, commune_population, code_commune)
-    - Infos sur les lieux connus
-    - Drapeaux des départements
+    - Infos sur les lieux connus ('attraction touristiques' dans wikidata)
+    - Drapeaux des départements (et oui, ça existe !)
 
 Questions possibles : 
     
@@ -23,9 +23,9 @@ Questions possibles :
         - Quel est le département correspondant au code X ? 
         - Quelle est la capitale du département X ?
         - Quelle est la population du département X ?
-        (- Quel département à une population de X ?)
+        (- Quel département a une population de X ?)
         - Quelle est la surface du département X ?
-        (- Quel département à une surface de X ?)
+        (- Quel département a une surface de X ?)
             
     Sur les communes : 
         - A quelle région appartient la commune X ?
@@ -43,8 +43,10 @@ Questions possibles :
         - A quel département appartient ce lieu ?
 
 ### 2.2 Création de la base de données
-Toutes les requêtes textuelles sont sauvegardées dans des csv après leur première execution. Les requêtes concernant des images les sauvegarde également dans le dossier assets après la première execution. Cela permet que l'interface soit plus rapide et que l'interface puisse être utilisée sans internet après la première execution.
+Toutes les requêtes textuelles sont sauvegardées dans des csv, dans le dossier ```./dataframes``` après leur première execution. Pour les requêtes concernant des images, les url des images sont stockés dans le dataframe. Les fichiers ```save_flags.py``` et ```save_places.py``` permettent alors de peupler le dossier ```./assets``` en fetchant les images via leurs urls et en les sauvegardant au format png. Cela permet à la fois de réduire la latence entre les questions une fois le quiz lancé (après la première exécution) et de permettre un lancement du quiz hors-ligne, sans accès à Internet.
+
+Notons que contrairement aux autres départements, le département 75 n'appartient pas à la classe Q6465 des départements français dans wikidata. De plus, Paris n'est plus considérée comme une commune française depuis 2018. Nous avons donc dû adapter les requêtes en faisant des UNION de façon à ne pas manquer les informations relatives au département 75 dans notre quiz !
+
 
 ### 2.3 Interface
-Notre interface a été codé avec tkinter, elle se situe principalement dans interface.py. 10 questions sont choisies aléatoirement dans la base. On recuppère les réponses et codons une question à choix multiples. 
-
+Notre interface a été codée avec tkinter. Elle se situe principalement dans ```interface.py```. Le quiz prend la forme d'une questionnaire à choix multiples, avec réponse unique et 4 options par question. Par défaut, 10 questions sont choisies aléatoirement parmi l'ensemble des types de questions possibles. En pratique, une fois le type de question choisi aléatoirement, on va chercher dans le dossier ```./dataframes``` (et éventuellement ```./assets```) la réponse à la question, ainsi que 3 autres entrées choisies aléatoirement qui feront office d'options. A chaque fois que l'utilisateur valide une réponse, une fenêtre de dialogue lui indique si la réponse qu'il a sélectionné était correcte ou non (auquel cas la bonne réponse lui est donnée). Une fois le quiz terminé, on affiche à l'utilisateur son score total.
