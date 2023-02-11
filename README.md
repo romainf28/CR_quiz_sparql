@@ -42,11 +42,20 @@ Questions possibles :
     Sur les lieux connus : 
         - A quel département appartient ce lieu ?
 
+Les principales classes du graphe de wikidata que nous avons utilisées pour écrire ces requêtes sont les suivantes :
+- https://www.wikidata.org/wiki/Q6465 (départements de France métropolitaine)
+- https://www.wikidata.org/wiki/Q202216 (régions et départements d'outre mer)
+- https://www.wikidata.org/wiki/Q570116 (points touristiques)
+
+Notons que contrairement aux autres départements, le département 75 n'appartient pas à la classe Q6465 des départements français dans wikidata. De plus, Paris n'est plus considérée comme une commune française depuis 2018. Nous avons donc dû adapter les requêtes en faisant des UNION de façon à ne pas manquer les informations relatives au département 75 dans notre quiz ! Pour cela, nous avons exploité le fait que Paris appartient toujours à la classe des capitales (Q5119) et que c'est la capitale de la France (d'où le triplet ```?commune wdt:P17 wd:Q142``` dans la requête). Cela nous a permis d'accéder aux propriétés ```wdt:P1082``` (population), 
+```wdt:P2586``` (code insee) et ```wdt:P281``` (code commune) pour la ville de Paris.
+                     
+
 ### 2.2 Création de la base de données
 Toutes les requêtes textuelles sont sauvegardées dans des csv, dans le dossier ```./dataframes``` après leur première execution. Pour les requêtes concernant des images, les url des images sont stockés dans le dataframe. Les fichiers ```save_flags.py``` et ```save_places.py``` permettent alors de peupler le dossier ```./assets``` en fetchant les images via leurs urls et en les sauvegardant au format png. Cela permet à la fois de réduire la latence entre les questions une fois le quiz lancé (après la première exécution) et de permettre un lancement du quiz hors-ligne, sans accès à Internet.
 
-Notons que contrairement aux autres départements, le département 75 n'appartient pas à la classe Q6465 des départements français dans wikidata. De plus, Paris n'est plus considérée comme une commune française depuis 2018. Nous avons donc dû adapter les requêtes en faisant des UNION de façon à ne pas manquer les informations relatives au département 75 dans notre quiz !
+Pour les départements d'outre mer, nous avons dû ajouter un filtrage supplémentaire dans la requête pour s'affranchir du fait que le drapeau de la France est souvent le premier drapeau rattaché à un DOM qui apparaît dans wikidata.
 
 
 ### 2.3 Interface
-Notre interface a été codée avec tkinter. Elle se situe principalement dans ```interface.py```. Le quiz prend la forme d'une questionnaire à choix multiples, avec réponse unique et 4 options par question. Par défaut, 10 questions sont choisies aléatoirement parmi l'ensemble des types de questions possibles. En pratique, une fois le type de question choisi aléatoirement, on va chercher dans le dossier ```./dataframes``` (et éventuellement ```./assets```) la réponse à la question, ainsi que 3 autres entrées choisies aléatoirement qui feront office d'options. A chaque fois que l'utilisateur valide une réponse, une fenêtre de dialogue lui indique si la réponse qu'il a sélectionné était correcte ou non (auquel cas la bonne réponse lui est donnée). Une fois le quiz terminé, on affiche à l'utilisateur son score total.
+Notre interface a été codée avec tkinter. Elle se situe principalement dans ```interface.py```. Le quiz prend la forme d'une questionnaire à choix multiples, avec réponse unique et 4 options par question. Par défaut, dans le mode standard, 10 questions sont choisies aléatoirement parmi l'ensemble des types de questions possibles. En pratique, une fois le type de question choisi aléatoirement, on va chercher dans le dossier ```./dataframes``` (et éventuellement ```./assets```) la réponse à la question, ainsi que 3 autres entrées choisies aléatoirement qui feront office d'options. A chaque fois que l'utilisateur valide une réponse, une fenêtre de dialogue lui indique si la réponse qu'il a sélectionnée était correcte ou non (auquel cas la bonne réponse lui est donnée). Une fois le quiz terminé, on affiche à l'utilisateur son score total. Dans le mode survie, l'utilisateur part avec un nombre donné de vies (par défaut 3) et enchaîne les questions jusqu'à ne plus avoir de vies, chaque mauvaise réponse lui en faisant perdre une. Une fois le jeu terminé, une fenêtre de dialogue affiche ) l'utilisateur le nomnbre de bonnes réponses qu'il a données avant de perdre toutes ses vies.
