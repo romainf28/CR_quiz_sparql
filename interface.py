@@ -314,6 +314,7 @@ class SurvivalQuiz(BaseQuiz):
         self.nb_lives = nb_lives
         self.question_list, self.answers, self.option_list, self.question_types = get_new_question(
             question_types=question_types, already_asked=[])
+        self.already_asked = [self.question_list[0]]
 
         self.radio_btns = self.radio_buttons()
 
@@ -339,7 +340,7 @@ class SurvivalQuiz(BaseQuiz):
                 self.gui.destroy()
 
             self.question_list, self.answers, self.option_list, self.question_types = get_new_question(
-                question_types=None, already_asked=[])
+                question_types=None, already_asked=self.already_asked)
 
             self.reset_buttons()
             self.display_question()
