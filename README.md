@@ -2,7 +2,7 @@
 
 ## 1. Comment utiliser le repo?
 
-Pour lancer notre quiz, il faut utiliser la commande ```python main.py```. Par défaut, cela lancera l'application tkinter pour 10 questions. Le nombre de questions posées dans le quiz ainsi que le type de questions posées sont paramétrables via les arguments ```nb_questions``` et ```question_types``` de la classe ```Quiz``` (définie dans interface.py). Les types de questions autorisés que l'on peut passer dans la liste ```question_types``` sont définis dans le dictionnaire ```AVAILABLE_QUESTION_TYPES```, dans le fichier ```queries.py```.
+Pour lancer notre quiz, il faut utiliser la commande ```python main.py```. Cela lance une application tkinter. Il faut alors choisir entre deux modes : le mode standard, dasn lequel un nombre fixe de questions est posé à l'utilisateur, et le mode survie, dans lequel l'utilisateur peut répondre à des questions jusqu'à ce qu'il n'ait plus de vies. Pour le quiz standard, le nombre de questions posées dans le quiz ainsi que le type de questions posées sont paramétrables via les arguments ```nb_questions``` et ```question_types``` de la classe ```StandardQuiz``` (définie dans interface.py). Pour le quiz en mode survie, on peut paramétrer le nombre de vies via le paramètre ```nb_lives``` de la classe ```SurvivalQuiz```. Les types de questions autorisés que l'on peut passer dans la liste ```question_types``` sont définis dans le dictionnaire ```AVAILABLE_QUESTION_TYPES```, dans le fichier ```queries.py```.
 
 ## 2. Comment a-t-on construit le quiz?
 
