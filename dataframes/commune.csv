@@ -1,0 +1,438 @@
+departement.type,departement.value,code_insee.type,code_insee.value,communePopulation.datatype,communePopulation.type,communePopulation.value,code_commune.type,code_commune.value,departementLabel.xml:lang,departementLabel.type,departementLabel.value,communeLabel.xml:lang,communeLabel.type,communeLabel.value,regionLabel.xml:lang,regionLabel.type,regionLabel.value
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13002,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,47535,literal,13400,fr,literal,Bouches-du-Rhône,fr,literal,Aubagne,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13001,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,93246,literal,94000,fr,literal,Val-de-Marne,fr,literal,Créteil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,26428,literal,13140,fr,literal,Bouches-du-Rhône,fr,literal,Miramas,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,27157,literal,94370,fr,literal,Val-de-Marne,fr,literal,Sucy-en-Brie,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,34890,literal,94190,fr,literal,Val-de-Marne,fr,literal,Villeneuve-Saint-Georges,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13003,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13013,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,30676,literal,94320,fr,literal,Val-de-Marne,fr,literal,Thiais,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,95510,literal,94400,fr,literal,Val-de-Marne,fr,literal,Vitry-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,74976,literal,94100,fr,literal,Val-de-Marne,fr,literal,Saint-Maur-des-Fossés,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,33588,literal,94170,fr,literal,Val-de-Marne,fr,literal,Le Perreux-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,48574,literal,13117,fr,literal,Bouches-du-Rhône,fr,literal,Martigues,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,145133,literal,13090,fr,literal,Bouches-du-Rhône,fr,literal,Aix-en-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,35993,literal,13600,fr,literal,Bouches-du-Rhône,fr,literal,La Ciotat,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,44805,literal,94140,fr,literal,Val-de-Marne,fr,literal,Alfortville,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,34042,literal,94130,fr,literal,Val-de-Marne,fr,literal,Nogent-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,43626,literal,13800,fr,literal,Bouches-du-Rhône,fr,literal,Istres,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,46150,literal,94600,fr,literal,Val-de-Marne,fr,literal,Choisy-le-Roi,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13000,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13011,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,50454,literal,13104,fr,literal,Bouches-du-Rhône,fr,literal,Arles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,145133,literal,13080,fr,literal,Bouches-du-Rhône,fr,literal,Aix-en-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,145133,literal,13540,fr,literal,Bouches-du-Rhône,fr,literal,Aix-en-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,76990,literal,94500,fr,literal,Val-de-Marne,fr,literal,Champigny-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,27833,literal,94450,fr,literal,Val-de-Marne,fr,literal,Limeil-Brévannes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13008,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13012,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,52008,literal,94120,fr,literal,Val-de-Marne,fr,literal,Fontenay-sous-Bois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,74976,literal,94210,fr,literal,Val-de-Marne,fr,literal,Saint-Maur-des-Fossés,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13004,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13015,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,48574,literal,13500,fr,literal,Bouches-du-Rhône,fr,literal,Martigues,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,30440,literal,94230,fr,literal,Val-de-Marne,fr,literal,Cachan,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13010,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13014,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,45386,literal,13300,fr,literal,Bouches-du-Rhône,fr,literal,Salon-de-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,50454,literal,13123,fr,literal,Bouches-du-Rhône,fr,literal,Arles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,50454,literal,13129,fr,literal,Bouches-du-Rhône,fr,literal,Arles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,50454,literal,13200,fr,literal,Bouches-du-Rhône,fr,literal,Arles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,50454,literal,13280,fr,literal,Bouches-du-Rhône,fr,literal,Arles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13009,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,145133,literal,13100,fr,literal,Bouches-du-Rhône,fr,literal,Aix-en-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,29882,literal,94220,fr,literal,Val-de-Marne,fr,literal,Charenton-le-Pont,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,49788,literal,94300,fr,literal,Val-de-Marne,fr,literal,Vincennes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13007,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,43626,literal,13118,fr,literal,Bouches-du-Rhône,fr,literal,Istres,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,32384,literal,13700,fr,literal,Bouches-du-Rhône,fr,literal,Marignane,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,63748,literal,94200,fr,literal,Val-de-Marne,fr,literal,Ivry-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13005,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13006,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,28895,literal,94350,fr,literal,Val-de-Marne,fr,literal,Villiers-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,32071,literal,94240,fr,literal,Val-de-Marne,fr,literal,L'Haÿ-les-Roses,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,870731,literal,13016,fr,literal,Bouches-du-Rhône,fr,literal,Marseille,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,145133,literal,13290,fr,literal,Bouches-du-Rhône,fr,literal,Aix-en-Provence,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3240,literal,13,http://www.w3.org/2001/XMLSchema#decimal,literal,33333,literal,13127,fr,literal,Bouches-du-Rhône,fr,literal,Vitrolles,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,28710,literal,94260,fr,literal,Val-de-Marne,fr,literal,Fresnes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,55208,literal,94800,fr,literal,Val-de-Marne,fr,literal,Villejuif,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12788,literal,94,http://www.w3.org/2001/XMLSchema#decimal,literal,56483,literal,94700,fr,literal,Val-de-Marne,fr,literal,Maisons-Alfort,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,29642,literal,92250,fr,literal,Hauts-de-Seine,fr,literal,La Garenne-Colombes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,44463,literal,93130,fr,literal,Seine-Saint-Denis,fr,literal,Noisy-le-Sec,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,37713,literal,93420,fr,literal,Seine-Saint-Denis,fr,literal,Villepinte,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,25024,literal,91940,fr,literal,Essonne,fr,literal,Les Ulis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,43239,literal,95140,fr,literal,Val-d'Oise,fr,literal,Garges-lès-Gonesse,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12556,literal,37,http://www.w3.org/2001/XMLSchema#decimal,literal,38444,literal,37300,fr,literal,Indre-et-Loire,fr,literal,Joué-lès-Tours,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3125,literal,05,http://www.w3.org/2001/XMLSchema#decimal,literal,40631,literal,05000,fr,literal,Hautes-Alpes,fr,literal,Gap,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,36060,literal,93170,fr,literal,Seine-Saint-Denis,fr,literal,Bagnolet,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,86969,literal,93600,fr,literal,Seine-Saint-Denis,fr,literal,Aulnay-sous-Bois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,52178,literal,06800,fr,literal,Alpes-Maritimes,fr,literal,Cagnes-sur-Mer,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,41887,literal,06110,fr,literal,Alpes-Maritimes,fr,literal,Le Cannet,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3286,literal,18,http://www.w3.org/2001/XMLSchema#decimal,literal,64541,literal,18000,fr,literal,Cher,fr,literal,Bourges,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,38285,literal,93240,fr,literal,Seine-Saint-Denis,fr,literal,Stains,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,31394,literal,91270,fr,literal,Essonne,fr,literal,Vigneux-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,30061,literal,92350,fr,literal,Hauts-de-Seine,fr,literal,Le Plessis-Robinson,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,35670,literal,91200,fr,literal,Essonne,fr,literal,Athis-Mons,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,40936,literal,92220,fr,literal,Hauts-de-Seine,fr,literal,Bagneux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,67871,literal,93160,fr,literal,Seine-Saint-Denis,fr,literal,Noisy-le-Grand,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,112852,literal,93200,fr,literal,Seine-Saint-Denis,fr,literal,Saint-Denis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,29169,literal,06700,fr,literal,Alpes-Maritimes,fr,literal,Saint-Laurent-du-Var,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,51234,literal,91100,fr,literal,Essonne,fr,literal,Corbeil-Essonnes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,59599,literal,92200,fr,literal,Hauts-de-Seine,fr,literal,Neuilly-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,27928,literal,93370,fr,literal,Seine-Saint-Denis,fr,literal,Montfermeil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,25531,literal,92260,fr,literal,Hauts-de-Seine,fr,literal,Fontenay-aux-Roses,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,36639,literal,92320,fr,literal,Hauts-de-Seine,fr,literal,Châtillon,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,55154,literal,77500,fr,literal,Seine-et-Marne,fr,literal,Chelles,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,112852,literal,93210,fr,literal,Seine-Saint-Denis,fr,literal,Saint-Denis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,35236,literal,91120,fr,literal,Essonne,fr,literal,Palaiseau,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,62760,literal,92160,fr,literal,Hauts-de-Seine,fr,literal,Antony,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,66082,literal,92300,fr,literal,Hauts-de-Seine,fr,literal,Levallois-Perret,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,48352,literal,92120,fr,literal,Hauts-de-Seine,fr,literal,Montrouge,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3286,literal,18,http://www.w3.org/2001/XMLSchema#decimal,literal,25464,literal,18100,fr,literal,Cher,fr,literal,Vierzon,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,48870,literal,06520,fr,literal,Alpes-Maritimes,fr,literal,Grasse,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,65911,literal,95800,fr,literal,Val-d'Oise,fr,literal,Cergy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,45692,literal,93190,fr,literal,Seine-Saint-Denis,fr,literal,Livry-Gargan,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,26565,literal,95110,fr,literal,Val-d'Oise,fr,literal,Sannois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,67981,literal,92130,fr,literal,Hauts-de-Seine,fr,literal,Issy-les-Moulineaux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,39661,literal,93220,fr,literal,Seine-Saint-Denis,fr,literal,Gagny,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12556,literal,37,http://www.w3.org/2001/XMLSchema#decimal,literal,137087,literal,37000,fr,literal,Indre-et-Loire,fr,literal,Tours,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12556,literal,37,http://www.w3.org/2001/XMLSchema#decimal,literal,137087,literal,37100,fr,literal,Indre-et-Loire,fr,literal,Tours,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12556,literal,37,http://www.w3.org/2001/XMLSchema#decimal,literal,137087,literal,37200,fr,literal,Indre-et-Loire,fr,literal,Tours,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,25629,literal,91150,fr,literal,Essonne,fr,literal,Étampes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,66851,literal,91000,fr,literal,Essonne,fr,literal,Évry-Courcouronnes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,45157,literal,92800,fr,literal,Hauts-de-Seine,fr,literal,Puteaux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,28939,literal,95120,fr,literal,Val-d'Oise,fr,literal,Ermont,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,28423,literal,95400,fr,literal,Val-d'Oise,fr,literal,Villiers-le-Bel,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,28782,literal,93390,fr,literal,Seine-Saint-Denis,fr,literal,Clichy-sous-Bois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12642,literal,56,http://www.w3.org/2001/XMLSchema#decimal,literal,53719,literal,56000,fr,literal,Morbihan,fr,literal,Vannes,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,63089,literal,92110,fr,literal,Hauts-de-Seine,fr,literal,Clichy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,27364,literal,06220,fr,literal,Alpes-Maritimes,fr,literal,Vallauris,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,29745,literal,91130,fr,literal,Essonne,fr,literal,Ris-Orangis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,54587,literal,93140,fr,literal,Seine-Saint-Denis,fr,literal,Bondy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,342669,literal,06100,fr,literal,Alpes-Maritimes,fr,literal,Nice,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,30950,literal,92240,fr,literal,Hauts-de-Seine,fr,literal,Malakoff,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,34021,literal,92290,fr,literal,Hauts-de-Seine,fr,literal,Châtenay-Malabry,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,27412,literal,91220,fr,literal,Essonne,fr,literal,Brétigny-sur-Orge,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,45053,literal,93120,fr,literal,Seine-Saint-Denis,fr,literal,La Courneuve,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,74545,literal,06400,fr,literal,Alpes-Maritimes,fr,literal,Cannes,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3389,literal,29,http://www.w3.org/2001/XMLSchema#decimal,literal,63283,literal,29000,fr,literal,Finistère,fr,literal,Quimper,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,73438,literal,06600,fr,literal,Alpes-Maritimes,fr,literal,Antibes,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,57498,literal,93150,fr,literal,Seine-Saint-Denis,fr,literal,Le Blanc-Mesnil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,30861,literal,93380,fr,literal,Seine-Saint-Denis,fr,literal,Pierrefitte-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,31314,literal,95220,fr,literal,Val-d'Oise,fr,literal,Herblay-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,36577,literal,91600,fr,literal,Essonne,fr,literal,Savigny-sur-Orge,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,48530,literal,92230,fr,literal,Hauts-de-Seine,fr,literal,Gennevilliers,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,45818,literal,92190,fr,literal,Hauts-de-Seine,fr,literal,Meudon,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,32405,literal,95000,fr,literal,Val-d'Oise,fr,literal,Pontoise,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,25654,literal,77420,fr,literal,Seine-et-Marne,fr,literal,Champs-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,37617,literal,77340,fr,literal,Seine-et-Marne,fr,literal,Pontault-Combault,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3336,literal,2A,http://www.w3.org/2001/XMLSchema#decimal,literal,71361,literal,20090,fr,literal,Corse-du-Sud,fr,literal,Ajaccio,fr,literal,Corse
+uri,http://www.wikidata.org/entity/Q3336,literal,2A,http://www.w3.org/2001/XMLSchema#decimal,literal,71361,literal,20167,fr,literal,Corse-du-Sud,fr,literal,Ajaccio,fr,literal,Corse
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,48870,literal,06130,fr,literal,Alpes-Maritimes,fr,literal,Grasse,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,73438,literal,06160,fr,literal,Alpes-Maritimes,fr,literal,Antibes,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,31671,literal,95870,fr,literal,Val-d'Oise,fr,literal,Bezons,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,342669,literal,06000,fr,literal,Alpes-Maritimes,fr,literal,Nice,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,35907,literal,93330,fr,literal,Seine-Saint-Denis,fr,literal,Neuilly-sur-Marne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,26597,literal,77600,fr,literal,Seine-et-Marne,fr,literal,Bussy-Saint-Georges,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3377,literal,28,http://www.w3.org/2001/XMLSchema#decimal,literal,30646,literal,28100,fr,literal,Eure-et-Loir,fr,literal,Dreux,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,29318,literal,91330,fr,literal,Essonne,fr,literal,Yerres,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,52925,literal,92140,fr,literal,Hauts-de-Seine,fr,literal,Clamart,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3336,literal,2A,http://www.w3.org/2001/XMLSchema#decimal,literal,71361,literal,20000,fr,literal,Corse-du-Sud,fr,literal,Ajaccio,fr,literal,Corse
+uri,http://www.wikidata.org/entity/Q3377,literal,28,http://www.w3.org/2001/XMLSchema#decimal,literal,38534,literal,28000,fr,literal,Eure-et-Loir,fr,literal,Chartres,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12574,literal,45,http://www.w3.org/2001/XMLSchema#decimal,literal,116269,literal,45000,fr,literal,Loiret,fr,literal,Orléans,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,96277,literal,92000,fr,literal,Hauts-de-Seine,fr,literal,Nanterre,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,25335,literal,95600,fr,literal,Val-d'Oise,fr,literal,Eaubonne,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3389,literal,29,http://www.w3.org/2001/XMLSchema#decimal,literal,139926,literal,29200,fr,literal,Finistère,fr,literal,Brest,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,26580,literal,77270,fr,literal,Seine-et-Marne,fr,literal,Villeparisis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,35830,literal,91700,fr,literal,Essonne,fr,literal,Sainte-Geneviève-des-Bois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,50644,literal,91300,fr,literal,Essonne,fr,literal,Massy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,51734,literal,93270,fr,literal,Seine-Saint-Denis,fr,literal,Sevran,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,54611,literal,93800,fr,literal,Seine-Saint-Denis,fr,literal,Épinay-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,30405,literal,93250,fr,literal,Seine-Saint-Denis,fr,literal,Villemomble,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12549,literal,35,http://www.w3.org/2001/XMLSchema#decimal,literal,220488,literal,35000,fr,literal,Ille-et-Vilaine,fr,literal,Rennes,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q12549,literal,35,http://www.w3.org/2001/XMLSchema#decimal,literal,220488,literal,35200,fr,literal,Ille-et-Vilaine,fr,literal,Rennes,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q12549,literal,35,http://www.w3.org/2001/XMLSchema#decimal,literal,220488,literal,35700,fr,literal,Ille-et-Vilaine,fr,literal,Rennes,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,72376,literal,93700,fr,literal,Seine-Saint-Denis,fr,literal,Drancy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,29987,literal,77176,fr,literal,Seine-et-Marne,fr,literal,Savigny-le-Temple,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,111240,literal,93100,fr,literal,Seine-Saint-Denis,fr,literal,Montreuil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,32405,literal,95300,fr,literal,Val-d'Oise,fr,literal,Pontoise,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,88948,literal,93300,fr,literal,Seine-Saint-Denis,fr,literal,Aubervilliers,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,86534,literal,92700,fr,literal,Hauts-de-Seine,fr,literal,Colombes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,59196,literal,95200,fr,literal,Val-d'Oise,fr,literal,Sarcelles,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3334,literal,2B,http://www.w3.org/2001/XMLSchema#decimal,literal,48503,literal,20600,fr,literal,Haute-Corse,fr,literal,Bastia,fr,literal,Corse
+uri,http://www.wikidata.org/entity/Q12549,literal,35,http://www.w3.org/2001/XMLSchema#decimal,literal,46803,literal,35400,fr,literal,Ille-et-Vilaine,fr,literal,Saint-Malo,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,30525,literal,06500,fr,literal,Alpes-Maritimes,fr,literal,Menton,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,28841,literal,92270,fr,literal,Hauts-de-Seine,fr,literal,Bois-Colombes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,45818,literal,92360,fr,literal,Hauts-de-Seine,fr,literal,Meudon,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,59846,literal,93500,fr,literal,Seine-Saint-Denis,fr,literal,Pantin,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,46024,literal,93110,fr,literal,Seine-Saint-Denis,fr,literal,Rosny-sous-Bois,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,50697,literal,93400,fr,literal,Seine-Saint-Denis,fr,literal,Saint-Ouen-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,111038,literal,95100,fr,literal,Val-d'Oise,fr,literal,Argenteuil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,65911,literal,95000,fr,literal,Val-d'Oise,fr,literal,Cergy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12642,literal,56,http://www.w3.org/2001/XMLSchema#decimal,literal,57246,literal,56100,fr,literal,Morbihan,fr,literal,Lorient,fr,literal,Bretagne
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,28602,literal,91210,fr,literal,Essonne,fr,literal,Draveil,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,31068,literal,95190,fr,literal,Val-d'Oise,fr,literal,Goussainville,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12574,literal,45,http://www.w3.org/2001/XMLSchema#decimal,literal,116269,literal,45100,fr,literal,Loiret,fr,literal,Orléans,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,49311,literal,92150,fr,literal,Hauts-de-Seine,fr,literal,Suresnes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,78317,literal,92500,fr,literal,Hauts-de-Seine,fr,literal,Rueil-Malmaison,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,30012,literal,92210,fr,literal,Hauts-de-Seine,fr,literal,Saint-Cloud,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,26106,literal,95500,fr,literal,Val-d'Oise,fr,literal,Gonesse,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,54363,literal,93000,fr,literal,Seine-Saint-Denis,fr,literal,Bobigny,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,37394,literal,95130,fr,literal,Val-d'Oise,fr,literal,Franconville,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,342669,literal,06300,fr,literal,Alpes-Maritimes,fr,literal,Nice,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,81558,literal,92400,fr,literal,Hauts-de-Seine,fr,literal,Courbevoie,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,53641,literal,91000,fr,literal,Essonne,fr,literal,Évry,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,36461,literal,93290,fr,literal,Seine-Saint-Denis,fr,literal,Tremblay-en-France,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3334,literal,2B,http://www.w3.org/2001/XMLSchema#decimal,literal,48503,literal,20200,fr,literal,Haute-Corse,fr,literal,Bastia,fr,literal,Corse
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,27846,literal,92170,fr,literal,Hauts-de-Seine,fr,literal,Vanves,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,26872,literal,95150,fr,literal,Val-d'Oise,fr,literal,Taverny,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12761,literal,93,http://www.w3.org/2001/XMLSchema#decimal,literal,30087,literal,93230,fr,literal,Seine-Saint-Denis,fr,literal,Romainville,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,121583,literal,92100,fr,literal,Hauts-de-Seine,fr,literal,Boulogne-Billancourt,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,40844,literal,77000,fr,literal,Seine-et-Marne,fr,literal,Melun,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12564,literal,41,http://www.w3.org/2001/XMLSchema#decimal,literal,45898,literal,41000,fr,literal,Loir-et-Cher,fr,literal,Blois,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,74545,literal,06150,fr,literal,Alpes-Maritimes,fr,literal,Cannes,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12753,literal,77,http://www.w3.org/2001/XMLSchema#decimal,literal,55750,literal,77100,fr,literal,Seine-et-Marne,fr,literal,Meaux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,28201,literal,91350,fr,literal,Essonne,fr,literal,Grigny,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12553,literal,36,http://www.w3.org/2001/XMLSchema#decimal,literal,43122,literal,36000,fr,literal,Indre,fr,literal,Châteauroux,fr,literal,Centre-Val de Loire
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,25330,literal,91800,fr,literal,Essonne,fr,literal,Brunoy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3368,literal,91,http://www.w3.org/2001/XMLSchema#decimal,literal,30865,literal,91170,fr,literal,Essonne,fr,literal,Viry-Châtillon,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3139,literal,06,http://www.w3.org/2001/XMLSchema#decimal,literal,342669,literal,06200,fr,literal,Alpes-Maritimes,fr,literal,Nice,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12543,literal,92,http://www.w3.org/2001/XMLSchema#decimal,literal,87143,literal,92600,fr,literal,Hauts-de-Seine,fr,literal,Asnières-sur-Seine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,295542,literal,34080,fr,literal,Hérault,fr,literal,Montpellier,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,295542,literal,34090,fr,literal,Hérault,fr,literal,Montpellier,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12569,literal,42,http://www.w3.org/2001/XMLSchema#decimal,literal,173821,literal,42230,fr,literal,Loire,fr,literal,Saint-Étienne,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31400,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,158198,literal,38000,fr,literal,Isère,fr,literal,Grenoble,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,25162,literal,49230,fr,literal,Maine-et-Loire,fr,literal,Sèvremoine,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q3364,literal,26,http://www.w3.org/2001/XMLSchema#decimal,literal,39818,literal,26200,fr,literal,Drôme,fr,literal,Montélimar,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12804,literal,86,http://www.w3.org/2001/XMLSchema#decimal,literal,89212,literal,86000,fr,literal,Vienne,fr,literal,Poitiers,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12569,literal,42,http://www.w3.org/2001/XMLSchema#decimal,literal,173821,literal,42100,fr,literal,Loire,fr,literal,Saint-Étienne,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,28834,literal,38300,fr,literal,Isère,fr,literal,Bourgoin-Jallieu,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,37935,literal,38400,fr,literal,Isère,fr,literal,Saint-Martin-d'Hères,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12798,literal,85,http://www.w3.org/2001/XMLSchema#decimal,literal,45030,literal,85100,fr,literal,Vendée,fr,literal,Les Sables-d'Olonne,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12792,literal,84,http://www.w3.org/2001/XMLSchema#decimal,literal,91143,literal,84000,fr,literal,Vaucluse,fr,literal,Avignon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,34592,literal,83140,fr,literal,Var,fr,literal,Six-Fours-les-Plages,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,25162,literal,49450,fr,literal,Maine-et-Loire,fr,literal,Sèvremoine,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,26467,literal,49400,fr,literal,Maine-et-Loire,fr,literal,Saumur,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50100,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,28117,literal,31170,fr,literal,Haute-Garonne,fr,literal,Tournefeuille,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,29471,literal,78280,fr,literal,Yvelines,fr,literal,Guyancourt,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,39968,literal,31770,fr,literal,Haute-Garonne,fr,literal,Colomiers,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3364,literal,26,http://www.w3.org/2001/XMLSchema#decimal,literal,33098,literal,26100,fr,literal,Drôme,fr,literal,Romans-sur-Isère,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12792,literal,84,http://www.w3.org/2001/XMLSchema#decimal,literal,26236,literal,84300,fr,literal,Vaucluse,fr,literal,Cavaillon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12792,literal,84,http://www.w3.org/2001/XMLSchema#decimal,literal,29236,literal,84200,fr,literal,Vaucluse,fr,literal,Carpentras,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,25624,literal,78990,fr,literal,Yvelines,fr,literal,Élancourt,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,32282,literal,78180,fr,literal,Yvelines,fr,literal,Montigny-le-Bretonneux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12740,literal,72,http://www.w3.org/2001/XMLSchema#decimal,literal,143847,literal,72000,fr,literal,Sarthe,fr,literal,Le Mans,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50460,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12578,literal,47,http://www.w3.org/2001/XMLSchema#decimal,literal,32602,literal,47000,fr,literal,Lot-et-Garonne,fr,literal,Agen,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,27683,literal,78150,fr,literal,Yvelines,fr,literal,Le Chesnay,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,35536,literal,78700,fr,literal,Yvelines,fr,literal,Conflans-Sainte-Honorine,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31200,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,178745,literal,83200,fr,literal,Var,fr,literal,Toulon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q3105,literal,88,http://www.w3.org/2001/XMLSchema#decimal,literal,32256,literal,88000,fr,literal,Vosges,fr,literal,Épinal,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,31233,literal,78150,fr,literal,Yvelines,fr,literal,Le Chesnay-Rocquencourt,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3207,literal,11,http://www.w3.org/2001/XMLSchema#decimal,literal,46825,literal,11000,fr,literal,Aude,fr,literal,Carcassonne,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3361,literal,25,http://www.w3.org/2001/XMLSchema#decimal,literal,118258,literal,25000,fr,literal,Doubs,fr,literal,Besançon,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12740,literal,72,http://www.w3.org/2001/XMLSchema#decimal,literal,143847,literal,72100,fr,literal,Sarthe,fr,literal,Le Mans,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,29993,literal,38200,fr,literal,Isère,fr,literal,Vienne,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12709,literal,66,http://www.w3.org/2001/XMLSchema#decimal,literal,119344,literal,66000,fr,literal,Pyrénées-Orientales,fr,literal,Perpignan,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12709,literal,66,http://www.w3.org/2001/XMLSchema#decimal,literal,119344,literal,66100,fr,literal,Pyrénées-Orientales,fr,literal,Perpignan,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,39433,literal,83300,fr,literal,Var,fr,literal,Draguignan,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,25505,literal,83130,fr,literal,Var,fr,literal,La Garde,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31100,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,36932,literal,38130,fr,literal,Isère,fr,literal,Échirolles,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,39187,literal,78300,fr,literal,Yvelines,fr,literal,Poissy,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,260958,literal,33300,fr,literal,Gironde,fr,literal,Bordeaux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,260958,literal,33100,fr,literal,Gironde,fr,literal,Bordeaux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,260958,literal,33200,fr,literal,Gironde,fr,literal,Bordeaux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,72197,literal,33700,fr,literal,Gironde,fr,literal,Mérignac,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,25525,literal,31700,fr,literal,Haute-Garonne,fr,literal,Blagnac,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12784,literal,95,http://www.w3.org/2001/XMLSchema#decimal,literal,25406,literal,95240,fr,literal,Val-d'Oise,fr,literal,Cormeilles-en-Parisis,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,42919,literal,44400,fr,literal,Loire-Atlantique,fr,literal,Rezé,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q3357,literal,24,http://www.w3.org/2001/XMLSchema#decimal,literal,26693,literal,24100,fr,literal,Dordogne,fr,literal,Bergerac,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,30153,literal,78400,fr,literal,Yvelines,fr,literal,Chatou,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3361,literal,25,http://www.w3.org/2001/XMLSchema#decimal,literal,25806,literal,25200,fr,literal,Doubs,fr,literal,Montbéliard,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,65245,literal,33600,fr,literal,Gironde,fr,literal,Pessac,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,318808,literal,44100,fr,literal,Loire-Atlantique,fr,literal,Nantes,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,54037,literal,49300,fr,literal,Maine-et-Loire,fr,literal,Cholet,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,260958,literal,33800,fr,literal,Gironde,fr,literal,Bordeaux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,25541,literal,44120,fr,literal,Loire-Atlantique,fr,literal,Vertou,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,52774,literal,78500,fr,literal,Yvelines,fr,literal,Sartrouville,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3278,literal,17,http://www.w3.org/2001/XMLSchema#decimal,literal,77205,literal,17000,fr,literal,Charente-Maritime,fr,literal,La Rochelle,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12808,literal,87,http://www.w3.org/2001/XMLSchema#decimal,literal,130876,literal,87100,fr,literal,Haute-Vienne,fr,literal,Limoges,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,33203,literal,78130,fr,literal,Yvelines,fr,literal,Les Mureaux,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3259,literal,15,http://www.w3.org/2001/XMLSchema#decimal,literal,25593,literal,15000,fr,literal,Cantal,fr,literal,Aurillac,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,36027,literal,83530,fr,literal,Var,fr,literal,Saint-Raphaël,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12772,literal,81,http://www.w3.org/2001/XMLSchema#decimal,literal,48902,literal,81000,fr,literal,Tarn,fr,literal,Albi,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,84808,literal,78000,fr,literal,Yvelines,fr,literal,Versailles,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,178745,literal,83100,fr,literal,Var,fr,literal,Toulon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12792,literal,84,http://www.w3.org/2001/XMLSchema#decimal,literal,91143,literal,84140,fr,literal,Vaucluse,fr,literal,Avignon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,26168,literal,33260,fr,literal,Gironde,fr,literal,La Teste-de-Buch,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12569,literal,42,http://www.w3.org/2001/XMLSchema#decimal,literal,34841,literal,42400,fr,literal,Loire,fr,literal,Saint-Chamond,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,43921,literal,78200,fr,literal,Yvelines,fr,literal,Mantes-la-Jolie,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,25162,literal,49660,fr,literal,Maine-et-Loire,fr,literal,Sèvremoine,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31300,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,155850,literal,49100,fr,literal,Maine-et-Loire,fr,literal,Angers,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,25162,literal,49710,fr,literal,Maine-et-Loire,fr,literal,Sèvremoine,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,30950,literal,78370,fr,literal,Yvelines,fr,literal,Plaisir,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12559,literal,38,http://www.w3.org/2001/XMLSchema#decimal,literal,158198,literal,38100,fr,literal,Isère,fr,literal,Grenoble,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12620,literal,53,http://www.w3.org/2001/XMLSchema#decimal,literal,49733,literal,53000,fr,literal,Mayenne,fr,literal,Laval,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12563,literal,40,http://www.w3.org/2001/XMLSchema#decimal,literal,29807,literal,40000,fr,literal,Landes,fr,literal,Mont-de-Marsan,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50110,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,43858,literal,34200,fr,literal,Hérault,fr,literal,Sète,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,47415,literal,44800,fr,literal,Loire-Atlantique,fr,literal,Saint-Herblain,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q3372,literal,27,http://www.w3.org/2001/XMLSchema#decimal,literal,46349,literal,27000,fr,literal,Eure,fr,literal,Évreux,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,260958,literal,33000,fr,literal,Gironde,fr,literal,Bordeaux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12808,literal,87,http://www.w3.org/2001/XMLSchema#decimal,literal,130876,literal,87000,fr,literal,Haute-Vienne,fr,literal,Limoges,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12515,literal,30,http://www.w3.org/2001/XMLSchema#decimal,literal,41837,literal,30100,fr,literal,Gard,fr,literal,Alès,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50130,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31000,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,26385,literal,34400,fr,literal,Hérault,fr,literal,Lunel,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12515,literal,30,http://www.w3.org/2001/XMLSchema#decimal,literal,148561,literal,30900,fr,literal,Gard,fr,literal,Nîmes,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12594,literal,51,http://www.w3.org/2001/XMLSchema#decimal,literal,181194,literal,51100,fr,literal,Marne,fr,literal,Reims,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,71394,literal,44600,fr,literal,Loire-Atlantique,fr,literal,Saint-Nazaire,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,43820,literal,33400,fr,literal,Gironde,fr,literal,Talence,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3249,literal,14,http://www.w3.org/2001/XMLSchema#decimal,literal,106230,literal,14000,fr,literal,Calvados,fr,literal,Caen,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,25694,literal,33170,fr,literal,Gironde,fr,literal,Gradignan,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3207,literal,11,http://www.w3.org/2001/XMLSchema#decimal,literal,55516,literal,11100,fr,literal,Aude,fr,literal,Narbonne,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50120,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,35545,literal,50470,fr,literal,Manche,fr,literal,Cherbourg-Octeville,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q3093,literal,02,http://www.w3.org/2001/XMLSchema#decimal,literal,53570,literal,02100,fr,literal,Aisne,fr,literal,Saint-Quentin,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,44806,literal,78100,fr,literal,Yvelines,fr,literal,Saint-Germain-en-Laye,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3326,literal,19,http://www.w3.org/2001/XMLSchema#decimal,literal,46330,literal,19100,fr,literal,Corrèze,fr,literal,Brive-la-Gaillarde,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,54821,literal,83400,fr,literal,Var,fr,literal,Hyères,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,55750,literal,83600,fr,literal,Var,fr,literal,Fréjus,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12569,literal,42,http://www.w3.org/2001/XMLSchema#decimal,literal,33809,literal,42300,fr,literal,Loire,fr,literal,Roanne,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,36027,literal,83700,fr,literal,Var,fr,literal,Saint-Raphaël,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12538,literal,31,http://www.w3.org/2001/XMLSchema#decimal,literal,493465,literal,31500,fr,literal,Haute-Garonne,fr,literal,Toulouse,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,32801,literal,78800,fr,literal,Yvelines,fr,literal,Houilles,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3278,literal,17,http://www.w3.org/2001/XMLSchema#decimal,literal,25287,literal,17100,fr,literal,Charente-Maritime,fr,literal,Saintes,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,29600,literal,34300,fr,literal,Hérault,fr,literal,Agde,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,27209,literal,44700,fr,literal,Loire-Atlantique,fr,literal,Orvault,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,178745,literal,83000,fr,literal,Var,fr,literal,Toulon,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12779,literal,82,http://www.w3.org/2001/XMLSchema#decimal,literal,61372,literal,82000,fr,literal,Tarn-et-Garonne,fr,literal,Montauban,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3342,literal,21,http://www.w3.org/2001/XMLSchema#decimal,literal,158002,literal,21000,fr,literal,Côte-d'Or,fr,literal,Dijon,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q3093,literal,02,http://www.w3.org/2001/XMLSchema#decimal,literal,28712,literal,02200,fr,literal,Aisne,fr,literal,Soissons,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,25496,literal,33150,fr,literal,Gironde,fr,literal,Cenon,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12515,literal,30,http://www.w3.org/2001/XMLSchema#decimal,literal,148561,literal,30000,fr,literal,Gard,fr,literal,Nîmes,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12804,literal,86,http://www.w3.org/2001/XMLSchema#decimal,literal,31487,literal,86100,fr,literal,Vienne,fr,literal,Châtellerault,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12798,literal,85,http://www.w3.org/2001/XMLSchema#decimal,literal,55147,literal,85000,fr,literal,Vendée,fr,literal,La Roche-sur-Yon,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q3364,literal,26,http://www.w3.org/2001/XMLSchema#decimal,literal,64749,literal,26000,fr,literal,Drôme,fr,literal,Valence,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,30642,literal,33130,fr,literal,Gironde,fr,literal,Bègles,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,318808,literal,44300,fr,literal,Loire-Atlantique,fr,literal,Nantes,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q3113,literal,03,http://www.w3.org/2001/XMLSchema#decimal,literal,34361,literal,03100,fr,literal,Allier,fr,literal,Montluçon,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q3357,literal,24,http://www.w3.org/2001/XMLSchema#decimal,literal,29896,literal,24000,fr,literal,Dordogne,fr,literal,Périgueux,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,40806,literal,78100,fr,literal,Yvelines,fr,literal,Saint-Germain-en-Laye,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3083,literal,01,http://www.w3.org/2001/XMLSchema#decimal,literal,41111,literal,01000,fr,literal,Ain,fr,literal,Bourg-en-Bresse,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q3164,literal,08,http://www.w3.org/2001/XMLSchema#decimal,literal,46436,literal,08000,fr,literal,Ardennes,fr,literal,Charleville-Mézières,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12569,literal,42,http://www.w3.org/2001/XMLSchema#decimal,literal,173821,literal,42000,fr,literal,Loire,fr,literal,Saint-Étienne,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,26168,literal,33115,fr,literal,Gironde,fr,literal,La Teste-de-Buch,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,27141,literal,78120,fr,literal,Yvelines,fr,literal,Rambouillet,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q3266,literal,16,http://www.w3.org/2001/XMLSchema#decimal,literal,41603,literal,16000,fr,literal,Charente,fr,literal,Angoulême,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12820,literal,78,http://www.w3.org/2001/XMLSchema#decimal,literal,32645,literal,78190,fr,literal,Yvelines,fr,literal,Trappes,fr,literal,Île-de-France
+uri,http://www.wikidata.org/entity/Q12700,literal,65,http://www.w3.org/2001/XMLSchema#decimal,literal,42758,literal,65000,fr,literal,Hautes-Pyrénées,fr,literal,Tarbes,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,27493,literal,44230,fr,literal,Loire-Atlantique,fr,literal,Saint-Sébastien-sur-Loire,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12584,literal,49,http://www.w3.org/2001/XMLSchema#decimal,literal,155850,literal,49000,fr,literal,Maine-et-Loire,fr,literal,Angers,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12772,literal,81,http://www.w3.org/2001/XMLSchema#decimal,literal,42079,literal,81100,fr,literal,Tarn,fr,literal,Castres,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,78308,literal,34500,fr,literal,Hérault,fr,literal,Béziers,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,318808,literal,44000,fr,literal,Loire-Atlantique,fr,literal,Nantes,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12792,literal,84,http://www.w3.org/2001/XMLSchema#decimal,literal,28772,literal,84100,fr,literal,Vaucluse,fr,literal,Orange,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,62987,literal,83500,fr,literal,Var,fr,literal,La Seyne-sur-Mer,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12789,literal,83,http://www.w3.org/2001/XMLSchema#decimal,literal,55750,literal,83370,fr,literal,Var,fr,literal,Fréjus,fr,literal,Provence-Alpes-Côte d'Azur
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,36754,literal,33140,fr,literal,Gironde,fr,literal,Villenave-d'Ornon,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12526,literal,33,http://www.w3.org/2001/XMLSchema#decimal,literal,31808,literal,33160,fr,literal,Gironde,fr,literal,Saint-Médard-en-Jalles,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q3068,literal,44,http://www.w3.org/2001/XMLSchema#decimal,literal,318808,literal,44200,fr,literal,Loire-Atlantique,fr,literal,Nantes,fr,literal,Pays de la Loire
+uri,http://www.wikidata.org/entity/Q12808,literal,87,http://www.w3.org/2001/XMLSchema#decimal,literal,130876,literal,87280,fr,literal,Haute-Vienne,fr,literal,Limoges,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,295542,literal,34000,fr,literal,Hérault,fr,literal,Montpellier,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12545,literal,34,http://www.w3.org/2001/XMLSchema#decimal,literal,295542,literal,34070,fr,literal,Hérault,fr,literal,Montpellier,fr,literal,Occitanie
+uri,http://www.wikidata.org/entity/Q12626,literal,54,http://www.w3.org/2001/XMLSchema#decimal,literal,29942,literal,54500,fr,literal,Meurthe-et-Moselle,fr,literal,Vandœuvre-lès-Nancy,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12751,literal,74,http://www.w3.org/2001/XMLSchema#decimal,literal,54145,literal,74000,fr,literal,Haute-Savoie,fr,literal,Annecy,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12703,literal,64,http://www.w3.org/2001/XMLSchema#decimal,literal,39719,literal,64600,fr,literal,Pyrénées-Atlantiques,fr,literal,Anglet,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,29068,literal,76300,fr,literal,Seine-Maritime,fr,literal,Sotteville-lès-Rouen,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12722,literal,68,http://www.w3.org/2001/XMLSchema#decimal,literal,108312,literal,68100,fr,literal,Haut-Rhin,fr,literal,Mulhouse,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,38486,literal,59700,fr,literal,Nord,fr,literal,Marcq-en-Barœul,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50110,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12770,literal,80,http://www.w3.org/2001/XMLSchema#decimal,literal,134706,literal,80080,fr,literal,Somme,fr,literal,Amiens,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12770,literal,80,http://www.w3.org/2001/XMLSchema#decimal,literal,134706,literal,80090,fr,literal,Somme,fr,literal,Amiens,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12675,literal,60,http://www.w3.org/2001/XMLSchema#decimal,literal,40615,literal,60200,fr,literal,Oise,fr,literal,Compiègne,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50130,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,86279,literal,59240,fr,literal,Nord,fr,literal,Dunkerque,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12652,literal,57,http://www.w3.org/2001/XMLSchema#decimal,literal,118489,literal,57000,fr,literal,Moselle,fr,literal,Metz,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12652,literal,57,http://www.w3.org/2001/XMLSchema#decimal,literal,118489,literal,57050,fr,literal,Moselle,fr,literal,Metz,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12652,literal,57,http://www.w3.org/2001/XMLSchema#decimal,literal,118489,literal,57070,fr,literal,Moselle,fr,literal,Metz,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,234475,literal,59000,fr,literal,Nord,fr,literal,Lille,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,234475,literal,59160,fr,literal,Nord,fr,literal,Lille,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,234475,literal,59260,fr,literal,Nord,fr,literal,Lille,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,234475,literal,59777,fr,literal,Nord,fr,literal,Lille,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,234475,literal,59800,fr,literal,Nord,fr,literal,Lille,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12657,literal,58,http://www.w3.org/2001/XMLSchema#decimal,literal,33005,literal,58000,fr,literal,Nièvre,fr,literal,Nevers,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50120,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50470,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12816,literal,89,http://www.w3.org/2001/XMLSchema#decimal,literal,34451,literal,89000,fr,literal,Yonne,fr,literal,Auxerre,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12675,literal,60,http://www.w3.org/2001/XMLSchema#decimal,literal,57071,literal,60000,fr,literal,Oise,fr,literal,Beauvais,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,25963,literal,76120,fr,literal,Seine-Maritime,fr,literal,Le Grand-Quevilly,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12679,literal,61,http://www.w3.org/2001/XMLSchema#decimal,literal,25870,literal,61000,fr,literal,Orne,fr,literal,Alençon,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,168290,literal,76600,fr,literal,Seine-Maritime,fr,literal,Le Havre,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,168290,literal,76610,fr,literal,Seine-Maritime,fr,literal,Le Havre,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,168290,literal,76620,fr,literal,Seine-Maritime,fr,literal,Le Havre,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q46130,literal,69,http://www.w3.org/2001/XMLSchema#decimal,literal,30697,literal,69140,fr,literal,Rhône,fr,literal,Rillieux-la-Pape,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12745,literal,73,http://www.w3.org/2001/XMLSchema#decimal,literal,58917,literal,73000,fr,literal,Savoie,fr,literal,Chambéry,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q46130,literal,69,http://www.w3.org/2001/XMLSchema#decimal,literal,52795,literal,69120,fr,literal,Rhône,fr,literal,Vaulx-en-Velin,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12694,literal,63,http://www.w3.org/2001/XMLSchema#decimal,literal,147865,literal,63100,fr,literal,Puy-de-Dôme,fr,literal,Clermont-Ferrand,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,31461,literal,62300,fr,literal,Pas-de-Calais,fr,literal,Lens,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,28352,literal,76800,fr,literal,Seine-Maritime,fr,literal,Saint-Étienne-du-Rouvray,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12745,literal,73,http://www.w3.org/2001/XMLSchema#decimal,literal,30463,literal,73100,fr,literal,Savoie,fr,literal,Aix-les-Bains,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12703,literal,64,http://www.w3.org/2001/XMLSchema#decimal,literal,51894,literal,64100,fr,literal,Pyrénées-Atlantiques,fr,literal,Bayonne,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,40898,literal,59150,fr,literal,Nord,fr,literal,Wattrelos,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12736,literal,71,http://www.w3.org/2001/XMLSchema#decimal,literal,33908,literal,71000,fr,literal,Saône-et-Loire,fr,literal,Mâcon,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12816,literal,89,http://www.w3.org/2001/XMLSchema#decimal,literal,26688,literal,89100,fr,literal,Yonne,fr,literal,Sens,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,86279,literal,59279,fr,literal,Nord,fr,literal,Dunkerque,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12770,literal,80,http://www.w3.org/2001/XMLSchema#decimal,literal,134706,literal,80000,fr,literal,Somme,fr,literal,Amiens,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12626,literal,54,http://www.w3.org/2001/XMLSchema#decimal,literal,105058,literal,54100,fr,literal,Meurthe-et-Moselle,fr,literal,Nancy,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,86279,literal,59640,fr,literal,Nord,fr,literal,Dunkerque,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,41694,literal,62000,fr,literal,Pas-de-Calais,fr,literal,Arras,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,61957,literal,59491,fr,literal,Nord,fr,literal,Villeneuve-d'Ascq,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,61957,literal,59493,fr,literal,Nord,fr,literal,Villeneuve-d'Ascq,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,61957,literal,59650,fr,literal,Nord,fr,literal,Villeneuve-d'Ascq,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,86279,literal,59140,fr,literal,Nord,fr,literal,Dunkerque,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,28241,literal,76370,fr,literal,Seine-Maritime,fr,literal,Dieppe,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,25370,literal,50100,fr,literal,Manche,fr,literal,Cherbourg,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12751,literal,74,http://www.w3.org/2001/XMLSchema#decimal,literal,130721,literal,74000,fr,literal,Haute-Savoie,fr,literal,Annecy,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,98656,literal,59200,fr,literal,Nord,fr,literal,Tourcoing,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,112321,literal,76000,fr,literal,Seine-Maritime,fr,literal,Rouen,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12765,literal,79,http://www.w3.org/2001/XMLSchema#decimal,literal,59193,literal,79000,fr,literal,Deux-Sèvres,fr,literal,Niort,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12722,literal,68,http://www.w3.org/2001/XMLSchema#decimal,literal,108312,literal,68200,fr,literal,Haut-Rhin,fr,literal,Mulhouse,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q46130,literal,69,http://www.w3.org/2001/XMLSchema#decimal,literal,26553,literal,69600,fr,literal,Rhône,fr,literal,Oullins,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12675,literal,60,http://www.w3.org/2001/XMLSchema#decimal,literal,36169,literal,60100,fr,literal,Oise,fr,literal,Creil,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12782,literal,90,http://www.w3.org/2001/XMLSchema#decimal,literal,46443,literal,90000,fr,literal,Territoire de Belfort,fr,literal,Belfort,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50100,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12751,literal,74,http://www.w3.org/2001/XMLSchema#decimal,literal,36582,literal,74100,fr,literal,Haute-Savoie,fr,literal,Annemasse,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12703,literal,64,http://www.w3.org/2001/XMLSchema#decimal,literal,25787,literal,64200,fr,literal,Pyrénées-Atlantiques,fr,literal,Biarritz,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,25039,literal,62400,fr,literal,Pas-de-Calais,fr,literal,Béthune,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,29589,literal,59600,fr,literal,Nord,fr,literal,Maubeuge,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12589,literal,50,http://www.w3.org/2001/XMLSchema#decimal,literal,78549,literal,50460,fr,literal,Manche,fr,literal,Cherbourg-en-Cotentin,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,28241,literal,76200,fr,literal,Seine-Maritime,fr,literal,Dieppe,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12736,literal,71,http://www.w3.org/2001/XMLSchema#decimal,literal,45056,literal,71100,fr,literal,Saône-et-Loire,fr,literal,Chalon-sur-Saône,fr,literal,Bourgogne-Franche-Comté
+uri,http://www.wikidata.org/entity/Q12722,literal,68,http://www.w3.org/2001/XMLSchema#decimal,literal,68682,literal,68000,fr,literal,Haut-Rhin,fr,literal,Colmar,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,39613,literal,59500,fr,literal,Nord,fr,literal,Douai,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,30112,literal,62800,fr,literal,Pas-de-Calais,fr,literal,Liévin,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,28006,literal,59160,fr,literal,Nord,fr,literal,Lomme,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,27400,literal,59130,fr,literal,Nord,fr,literal,Lambersart,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q46130,literal,69,http://www.w3.org/2001/XMLSchema#decimal,literal,36291,literal,69400,fr,literal,Rhône,fr,literal,Villefranche-sur-Saône,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,72509,literal,62100,fr,literal,Pas-de-Calais,fr,literal,Calais,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12694,literal,63,http://www.w3.org/2001/XMLSchema#decimal,literal,147865,literal,63000,fr,literal,Puy-de-Dôme,fr,literal,Clermont-Ferrand,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12751,literal,74,http://www.w3.org/2001/XMLSchema#decimal,literal,35826,literal,74200,fr,literal,Haute-Savoie,fr,literal,Thonon-les-Bains,fr,literal,Auvergne-Rhône-Alpes
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,43229,literal,59300,fr,literal,Nord,fr,literal,Valenciennes,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,86279,literal,59430,fr,literal,Nord,fr,literal,Dunkerque,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,40251,literal,62200,fr,literal,Pas-de-Calais,fr,literal,Boulogne-sur-Mer,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12689,literal,62,http://www.w3.org/2001/XMLSchema#decimal,literal,25992,literal,62110,fr,literal,Pas-de-Calais,fr,literal,Hénin-Beaumont,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12652,literal,57,http://www.w3.org/2001/XMLSchema#decimal,literal,40778,literal,57100,fr,literal,Moselle,fr,literal,Thionville,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12626,literal,54,http://www.w3.org/2001/XMLSchema#decimal,literal,105058,literal,54000,fr,literal,Meurthe-et-Moselle,fr,literal,Nancy,fr,literal,Grand Est
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,98828,literal,59100,fr,literal,Nord,fr,literal,Roubaix,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12661,literal,59,http://www.w3.org/2001/XMLSchema#decimal,literal,32176,literal,59400,fr,literal,Nord,fr,literal,Cambrai,fr,literal,Hauts-de-France
+uri,http://www.wikidata.org/entity/Q12703,literal,64,http://www.w3.org/2001/XMLSchema#decimal,literal,75627,literal,64000,fr,literal,Pyrénées-Atlantiques,fr,literal,Pau,fr,literal,Nouvelle-Aquitaine
+uri,http://www.wikidata.org/entity/Q12758,literal,76,http://www.w3.org/2001/XMLSchema#decimal,literal,112321,literal,76100,fr,literal,Seine-Maritime,fr,literal,Rouen,fr,literal,Normandie
+uri,http://www.wikidata.org/entity/Q12816,literal,89,http://www.w3.org/2001/XMLSchema#decimal,literal,34451,literal,89290,fr,literal,Yonne,fr,literal,Auxerre,fr,literal,Bourgogne-Franche-Comté

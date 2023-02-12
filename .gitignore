@@ -1,3 +1,4 @@
 results.csv
 *.cpython-310.pyc
 *-checkpoint.*
+*.pyc
